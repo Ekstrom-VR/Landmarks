@@ -1,0 +1,11 @@
+INTRODUCTION
+
+In this game you will play a delivery person in a virtual city.
+
+Your task is to drive through the city making deliveries to specified stores.
+
+As you drive through the city, be sure to pay attention to the locations of the stores.
+
+You will be tested on your memory of this city later.
+
+Press Return to continue.

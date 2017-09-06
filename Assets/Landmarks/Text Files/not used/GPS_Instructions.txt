@@ -1,0 +1,9 @@
+You are about to enter a virtual city, or a city that exists on the computer.  
+Your job is to learn as much as you can about this city.  To simulate the experience of GPS-based navigation, 
+arrows will appear showing you how to get to different places you need to find in the city.  
+Follow the arrows to get to each of your destinations and try to get there as quickly as possible.  
+We will then ask you questions about the locations of stores in the city.
+ 
+Before you see the city, you will see images of some of the stores you are going to experience.
+ 
+Good luck, and please try your best!

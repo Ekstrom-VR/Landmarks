@@ -1,0 +1,4 @@
+Turn the arrow all the way to the RIGHT, then press RETURN.
+Turn the arrow all the way to the LEFT, then press RETURN.
+Turn the arrow STRAIGHT AHEAD, then press RETURN.
+Turn the arrow STRAIGHT BEHIND you, then press RETURN.

@@ -1,0 +1,7 @@
+Imagine standing at Pizzeria, facing 1st Bank; point to Bookstore.
+
+Imagine standing at Florist, facing Pizzeria; point to 1st Bank.
+
+Imagine standing at 1st Bank, facing Bookstore; point to Florist.
+
+Imagine standing at Bookstore, facing Florist; point to Pizzeria.

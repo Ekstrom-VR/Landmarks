@@ -1,0 +1,11 @@
+This level does the following:
+
+Overview instructions
+Arrow Instructions
+Arrow Practice
+Store Preview
+Drops player off "at the bus stop"
+Instructs player to find store.
+Returns player to the bus stop.
+Instructs player to point to store.
+Follow specified orders.

@@ -1,0 +1,72 @@
+
+# THIS IS A COMMENT AND IS IGNORED
+
+
+
+### SKIPPING TASKS
+
+
+# to skip something change False to True
+
+# This is the very first set of instructions
+InstructionsTask.InstructionsTask.skip	= False
+
+
+# doSFP = True
+StoreFrontPractice.TaskList.skip	= True
+
+# doStoreRecall = True 
+# There are 2 parameters to set here - 1 for the instructions and one for the blank screen
+Prepare Recall.InstructionsTask.skip	= False
+Store Recall.InstructionsTask.skip	= False
+
+# doPractice = [True, True, True, True]
+PracticeTasks.TaskList.skip		= True
+
+
+
+
+
+
+### REPEATING TASKS
+
+# practLength  = [2,1,1,1]
+PracticeDeliveries.TaskList.repeat		= 2
+
+# numTrials = [6,8,8,8]
+# set both the number of items and the number of times to deliver items
+ItemList.TextList.size = 6
+Trials.TaskList.repeat = 6
+
+
+# needed for now
+DeliveryTasks.TaskList.repeat		= 1
+
+
+### MOVING FORWARD AND BACKWARD
+
+# linearAcceleration = 10.0
+# fullForwardSpeed   = 20.0
+# fullBackwardSpeed  = -20.0
+# friction           = 0.4
+
+Avatar.AvatarController.linearAcceleration = 5
+Avatar.AvatarController.fullForwardSpeed = 10
+Avatar.AvatarController.fullBackwardSpeed = -10
+Avatar.AvatarController.movefriction = 0.4
+
+
+### TURNING
+
+# turningSpeed       = 30
+# fullTurningSpeed   = 30
+# turningAcceleration = 60
+
+Avatar.AvatarController.turningSpeed = 30
+Avatar.AvatarController.fullTurningSpeed = 30
+Avatar.AvatarController.turningAcceleration = 60
+
+
+
+
+

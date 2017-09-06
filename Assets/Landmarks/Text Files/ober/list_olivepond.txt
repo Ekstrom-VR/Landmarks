@@ -1,0 +1,240 @@
+Imagine standing at Craft Shop, facing Music Store; point to Gym.
+
+Imagine standing at Craft Shop, facing Music Store; point to Costume Shop.
+
+Imagine standing at Craft Shop, facing Music Store; point to Fast Food Shop.
+
+Imagine standing at Craft Shop, facing Music Store; point to Butcher Shop.
+
+Imagine standing at Craft Shop, facing Gym; point to Music Store.
+
+Imagine standing at Craft Shop, facing Gym; point to Costume Shop.
+
+Imagine standing at Craft Shop, facing Gym; point to Fast Food Shop.
+
+Imagine standing at Craft Shop, facing Gym; point to Butcher Shop.
+
+Imagine standing at Craft Shop, facing Costume Shop; point to Music Store.
+
+Imagine standing at Craft Shop, facing Costume Shop; point to Gym.
+
+Imagine standing at Craft Shop, facing Costume Shop; point to Fast Food Shop.
+
+Imagine standing at Craft Shop, facing Costume Shop; point to Butcher Shop.
+
+Imagine standing at Craft Shop, facing Fast Food Shop; point to Music Store.
+
+Imagine standing at Craft Shop, facing Fast Food Shop; point to Gym.
+
+Imagine standing at Craft Shop, facing Fast Food Shop; point to Costume Shop.
+
+Imagine standing at Craft Shop, facing Fast Food Shop; point to Butcher Shop.
+
+Imagine standing at Craft Shop, facing Butcher Shop; point to Music Store.
+
+Imagine standing at Craft Shop, facing Butcher Shop; point to Gym.
+
+Imagine standing at Craft Shop, facing Butcher Shop; point to Costume Shop.
+
+Imagine standing at Craft Shop, facing Butcher Shop; point to Fast Food Shop.
+
+Imagine standing at Music Store, facing Craft Shop; point to Gym.
+
+Imagine standing at Music Store, facing Craft Shop; point to Costume Shop.
+
+Imagine standing at Music Store, facing Craft Shop; point to Fast Food Shop.
+
+Imagine standing at Music Store, facing Craft Shop; point to Butcher Shop.
+
+Imagine standing at Music Store, facing Gym; point to Craft Shop.
+
+Imagine standing at Music Store, facing Gym; point to Costume Shop.
+
+Imagine standing at Music Store, facing Gym; point to Fast Food Shop.
+
+Imagine standing at Music Store, facing Gym; point to Butcher Shop.
+
+Imagine standing at Music Store, facing Costume Shop; point to Craft Shop.
+
+Imagine standing at Music Store, facing Costume Shop; point to Gym.
+
+Imagine standing at Music Store, facing Costume Shop; point to Fast Food Shop.
+
+Imagine standing at Music Store, facing Costume Shop; point to Butcher Shop.
+
+Imagine standing at Music Store, facing Fast Food Shop; point to Craft Shop.
+
+Imagine standing at Music Store, facing Fast Food Shop; point to Gym.
+
+Imagine standing at Music Store, facing Fast Food Shop; point to Costume Shop.
+
+Imagine standing at Music Store, facing Fast Food Shop; point to Butcher Shop.
+
+Imagine standing at Music Store, facing Butcher Shop; point to Craft Shop.
+
+Imagine standing at Music Store, facing Butcher Shop; point to Gym.
+
+Imagine standing at Music Store, facing Butcher Shop; point to Costume Shop.
+
+Imagine standing at Music Store, facing Butcher Shop; point to Fast Food Shop.
+
+Imagine standing at Gym, facing Craft Shop; point to Music Store.
+
+Imagine standing at Gym, facing Craft Shop; point to Costume Shop.
+
+Imagine standing at Gym, facing Craft Shop; point to Fast Food Shop.
+
+Imagine standing at Gym, facing Craft Shop; point to Butcher Shop.
+
+Imagine standing at Gym, facing Music Store; point to Craft Shop.
+
+Imagine standing at Gym, facing Music Store; point to Costume Shop.
+
+Imagine standing at Gym, facing Music Store; point to Fast Food Shop.
+
+Imagine standing at Gym, facing Music Store; point to Butcher Shop.
+
+Imagine standing at Gym, facing Costume Shop; point to Craft Shop.
+
+Imagine standing at Gym, facing Costume Shop; point to Music Store.
+
+Imagine standing at Gym, facing Costume Shop; point to Fast Food Shop.
+
+Imagine standing at Gym, facing Costume Shop; point to Butcher Shop.
+
+Imagine standing at Gym, facing Fast Food Shop; point to Craft Shop.
+
+Imagine standing at Gym, facing Fast Food Shop; point to Music Store.
+
+Imagine standing at Gym, facing Fast Food Shop; point to Costume Shop.
+
+Imagine standing at Gym, facing Fast Food Shop; point to Butcher Shop.
+
+Imagine standing at Gym, facing Butcher Shop; point to Craft Shop.
+
+Imagine standing at Gym, facing Butcher Shop; point to Music Store.
+
+Imagine standing at Gym, facing Butcher Shop; point to Costume Shop.
+
+Imagine standing at Gym, facing Butcher Shop; point to Fast Food Shop.
+
+Imagine standing at Costume Shop, facing Craft Shop; point to Music Store.
+
+Imagine standing at Costume Shop, facing Craft Shop; point to Gym.
+
+Imagine standing at Costume Shop, facing Craft Shop; point to Fast Food Shop.
+
+Imagine standing at Costume Shop, facing Craft Shop; point to Butcher Shop.
+
+Imagine standing at Costume Shop, facing Music Store; point to Craft Shop.
+
+Imagine standing at Costume Shop, facing Music Store; point to Gym.
+
+Imagine standing at Costume Shop, facing Music Store; point to Fast Food Shop.
+
+Imagine standing at Costume Shop, facing Music Store; point to Butcher Shop.
+
+Imagine standing at Costume Shop, facing Gym; point to Craft Shop.
+
+Imagine standing at Costume Shop, facing Gym; point to Music Store.
+
+Imagine standing at Costume Shop, facing Gym; point to Fast Food Shop.
+
+Imagine standing at Costume Shop, facing Gym; point to Butcher Shop.
+
+Imagine standing at Costume Shop, facing Fast Food Shop; point to Craft Shop.
+
+Imagine standing at Costume Shop, facing Fast Food Shop; point to Music Store.
+
+Imagine standing at Costume Shop, facing Fast Food Shop; point to Gym.
+
+Imagine standing at Costume Shop, facing Fast Food Shop; point to Butcher Shop.
+
+Imagine standing at Costume Shop, facing Butcher Shop; point to Craft Shop.
+
+Imagine standing at Costume Shop, facing Butcher Shop; point to Music Store.
+
+Imagine standing at Costume Shop, facing Butcher Shop; point to Gym.
+
+Imagine standing at Costume Shop, facing Butcher Shop; point to Fast Food Shop.
+
+Imagine standing at Fast Food Shop, facing Craft Shop; point to Music Store.
+
+Imagine standing at Fast Food Shop, facing Craft Shop; point to Gym.
+
+Imagine standing at Fast Food Shop, facing Craft Shop; point to Costume Shop.
+
+Imagine standing at Fast Food Shop, facing Craft Shop; point to Butcher Shop.
+
+Imagine standing at Fast Food Shop, facing Music Store; point to Craft Shop.
+
+Imagine standing at Fast Food Shop, facing Music Store; point to Gym.
+
+Imagine standing at Fast Food Shop, facing Music Store; point to Costume Shop.
+
+Imagine standing at Fast Food Shop, facing Music Store; point to Butcher Shop.
+
+Imagine standing at Fast Food Shop, facing Gym; point to Craft Shop.
+
+Imagine standing at Fast Food Shop, facing Gym; point to Music Store.
+
+Imagine standing at Fast Food Shop, facing Gym; point to Costume Shop.
+
+Imagine standing at Fast Food Shop, facing Gym; point to Butcher Shop.
+
+Imagine standing at Fast Food Shop, facing Costume Shop; point to Craft Shop.
+
+Imagine standing at Fast Food Shop, facing Costume Shop; point to Music Store.
+
+Imagine standing at Fast Food Shop, facing Costume Shop; point to Gym.
+
+Imagine standing at Fast Food Shop, facing Costume Shop; point to Butcher Shop.
+
+Imagine standing at Fast Food Shop, facing Butcher Shop; point to Craft Shop.
+
+Imagine standing at Fast Food Shop, facing Butcher Shop; point to Music Store.
+
+Imagine standing at Fast Food Shop, facing Butcher Shop; point to Gym.
+
+Imagine standing at Fast Food Shop, facing Butcher Shop; point to Costume Shop.
+
+Imagine standing at Butcher Shop, facing Craft Shop; point to Music Store.
+
+Imagine standing at Butcher Shop, facing Craft Shop; point to Gym.
+
+Imagine standing at Butcher Shop, facing Craft Shop; point to Costume Shop.
+
+Imagine standing at Butcher Shop, facing Craft Shop; point to Fast Food Shop.
+
+Imagine standing at Butcher Shop, facing Music Store; point to Craft Shop.
+
+Imagine standing at Butcher Shop, facing Music Store; point to Gym.
+
+Imagine standing at Butcher Shop, facing Music Store; point to Costume Shop.
+
+Imagine standing at Butcher Shop, facing Music Store; point to Fast Food Shop.
+
+Imagine standing at Butcher Shop, facing Gym; point to Craft Shop.
+
+Imagine standing at Butcher Shop, facing Gym; point to Music Store.
+
+Imagine standing at Butcher Shop, facing Gym; point to Costume Shop.
+
+Imagine standing at Butcher Shop, facing Gym; point to Fast Food Shop.
+
+Imagine standing at Butcher Shop, facing Costume Shop; point to Craft Shop.
+
+Imagine standing at Butcher Shop, facing Costume Shop; point to Music Store.
+
+Imagine standing at Butcher Shop, facing Costume Shop; point to Gym.
+
+Imagine standing at Butcher Shop, facing Costume Shop; point to Fast Food Shop.
+
+Imagine standing at Butcher Shop, facing Fast Food Shop; point to Craft Shop.
+
+Imagine standing at Butcher Shop, facing Fast Food Shop; point to Music Store.
+
+Imagine standing at Butcher Shop, facing Fast Food Shop; point to Gym.
+
+Imagine standing at Butcher Shop, facing Fast Food Shop; point to Costume Shop.
+

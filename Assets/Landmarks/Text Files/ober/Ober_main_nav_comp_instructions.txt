@@ -1,0 +1,10 @@
+INTRODUCTION
+
+In the first portion of this experiment, you will be shown several stores.
+
+Afterwards, you will be asked to make a series of deliveries to stores within that same city. 
+
+Finally, you will then be asked to imagine yourself standing at stores in the city and then point to
+the locations of other stores when prompted. 
+
+Press return to begin.

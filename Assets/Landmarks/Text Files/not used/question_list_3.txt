@@ -1,0 +1,4 @@
+Turn the arrow to point to the Pizzeria.
+Turn the arrow to point to the Florist.
+Turn the arrow to point to the Book Store.
+Turn the arrow to point to the 1st Bank.

@@ -1,0 +1,336 @@
+Imagine you're standing at the Bakery,    facing the Barber.    Please point to the Cell Phones
+Imagine you're standing at the Bakery,    facing the Barber.    Please point to the Clothing
+Imagine you're standing at the Bakery,    facing the Barber.    Please point to the Coffee
+Imagine you're standing at the Bakery,    facing the Barber.    Please point to the Dentist
+Imagine you're standing at the Bakery,    facing the Barber.    Please point to the Florist
+Imagine you're standing at the Bakery,    facing the Barber.    Please point to the Pharmacy
+Imagine you're standing at the Bakery,    facing the Cell Phones.    Please point to the Barber
+Imagine you're standing at the Bakery,    facing the Cell Phones.    Please point to the Clothing
+Imagine you're standing at the Bakery,    facing the Cell Phones.    Please point to the Coffee
+Imagine you're standing at the Bakery,    facing the Cell Phones.    Please point to the Dentist
+Imagine you're standing at the Bakery,    facing the Cell Phones.    Please point to the Florist
+Imagine you're standing at the Bakery,    facing the Cell Phones.    Please point to the Pharmacy
+Imagine you're standing at the Bakery,    facing the Clothing.    Please point to the Barber
+Imagine you're standing at the Bakery,    facing the Clothing.    Please point to the Cell Phones
+Imagine you're standing at the Bakery,    facing the Clothing.    Please point to the Coffee
+Imagine you're standing at the Bakery,    facing the Clothing.    Please point to the Dentist
+Imagine you're standing at the Bakery,    facing the Clothing.    Please point to the Florist
+Imagine you're standing at the Bakery,    facing the Clothing.    Please point to the Pharmacy
+Imagine you're standing at the Bakery,    facing the Coffee.    Please point to the Barber
+Imagine you're standing at the Bakery,    facing the Coffee.    Please point to the Cell Phones
+Imagine you're standing at the Bakery,    facing the Coffee.    Please point to the Clothing
+Imagine you're standing at the Bakery,    facing the Coffee.    Please point to the Dentist
+Imagine you're standing at the Bakery,    facing the Coffee.    Please point to the Florist
+Imagine you're standing at the Bakery,    facing the Coffee.    Please point to the Pharmacy
+Imagine you're standing at the Bakery,    facing the Dentist.    Please point to the Barber
+Imagine you're standing at the Bakery,    facing the Dentist.    Please point to the Cell Phones
+Imagine you're standing at the Bakery,    facing the Dentist.    Please point to the Clothing
+Imagine you're standing at the Bakery,    facing the Dentist.    Please point to the Coffee
+Imagine you're standing at the Bakery,    facing the Dentist.    Please point to the Florist
+Imagine you're standing at the Bakery,    facing the Dentist.    Please point to the Pharmacy
+Imagine you're standing at the Bakery,    facing the Florist.    Please point to the Barber
+Imagine you're standing at the Bakery,    facing the Florist.    Please point to the Cell Phones
+Imagine you're standing at the Bakery,    facing the Florist.    Please point to the Clothing
+Imagine you're standing at the Bakery,    facing the Florist.    Please point to the Coffee
+Imagine you're standing at the Bakery,    facing the Florist.    Please point to the Dentist
+Imagine you're standing at the Bakery,    facing the Florist.    Please point to the Pharmacy
+Imagine you're standing at the Bakery,    facing the Pharmacy.    Please point to the Barber
+Imagine you're standing at the Bakery,    facing the Pharmacy.    Please point to the Cell Phones
+Imagine you're standing at the Bakery,    facing the Pharmacy.    Please point to the Clothing
+Imagine you're standing at the Bakery,    facing the Pharmacy.    Please point to the Coffee
+Imagine you're standing at the Bakery,    facing the Pharmacy.    Please point to the Dentist
+Imagine you're standing at the Bakery,    facing the Pharmacy.    Please point to the Florist
+Imagine you're standing at the Barber,    facing the Bakery.    Please point to the Cell Phones
+Imagine you're standing at the Barber,    facing the Bakery.    Please point to the Clothing
+Imagine you're standing at the Barber,    facing the Bakery.    Please point to the Coffee
+Imagine you're standing at the Barber,    facing the Bakery.    Please point to the Dentist
+Imagine you're standing at the Barber,    facing the Bakery.    Please point to the Florist
+Imagine you're standing at the Barber,    facing the Bakery.    Please point to the Pharmacy
+Imagine you're standing at the Barber,    facing the Cell Phones.    Please point to the Bakery
+Imagine you're standing at the Barber,    facing the Cell Phones.    Please point to the Clothing
+Imagine you're standing at the Barber,    facing the Cell Phones.    Please point to the Coffee
+Imagine you're standing at the Barber,    facing the Cell Phones.    Please point to the Dentist
+Imagine you're standing at the Barber,    facing the Cell Phones.    Please point to the Florist
+Imagine you're standing at the Barber,    facing the Cell Phones.    Please point to the Pharmacy
+Imagine you're standing at the Barber,    facing the Clothing.    Please point to the Bakery
+Imagine you're standing at the Barber,    facing the Clothing.    Please point to the Cell Phones
+Imagine you're standing at the Barber,    facing the Clothing.    Please point to the Coffee
+Imagine you're standing at the Barber,    facing the Clothing.    Please point to the Dentist
+Imagine you're standing at the Barber,    facing the Clothing.    Please point to the Florist
+Imagine you're standing at the Barber,    facing the Clothing.    Please point to the Pharmacy
+Imagine you're standing at the Barber,    facing the Coffee.    Please point to the Bakery
+Imagine you're standing at the Barber,    facing the Coffee.    Please point to the Cell Phones
+Imagine you're standing at the Barber,    facing the Coffee.    Please point to the Clothing
+Imagine you're standing at the Barber,    facing the Coffee.    Please point to the Dentist
+Imagine you're standing at the Barber,    facing the Coffee.    Please point to the Florist
+Imagine you're standing at the Barber,    facing the Coffee.    Please point to the Pharmacy
+Imagine you're standing at the Barber,    facing the Dentist.    Please point to the Bakery
+Imagine you're standing at the Barber,    facing the Dentist.    Please point to the Cell Phones
+Imagine you're standing at the Barber,    facing the Dentist.    Please point to the Clothing
+Imagine you're standing at the Barber,    facing the Dentist.    Please point to the Coffee
+Imagine you're standing at the Barber,    facing the Dentist.    Please point to the Florist
+Imagine you're standing at the Barber,    facing the Dentist.    Please point to the Pharmacy
+Imagine you're standing at the Barber,    facing the Florist.    Please point to the Bakery
+Imagine you're standing at the Barber,    facing the Florist.    Please point to the Cell Phones
+Imagine you're standing at the Barber,    facing the Florist.    Please point to the Clothing
+Imagine you're standing at the Barber,    facing the Florist.    Please point to the Coffee
+Imagine you're standing at the Barber,    facing the Florist.    Please point to the Dentist
+Imagine you're standing at the Barber,    facing the Florist.    Please point to the Pharmacy
+Imagine you're standing at the Barber,    facing the Pharmacy.    Please point to the Bakery
+Imagine you're standing at the Barber,    facing the Pharmacy.    Please point to the Cell Phones
+Imagine you're standing at the Barber,    facing the Pharmacy.    Please point to the Clothing
+Imagine you're standing at the Barber,    facing the Pharmacy.    Please point to the Coffee
+Imagine you're standing at the Barber,    facing the Pharmacy.    Please point to the Dentist
+Imagine you're standing at the Barber,    facing the Pharmacy.    Please point to the Florist
+Imagine you're standing at the Cell Phones,    facing the Bakery.    Please point to the Barber
+Imagine you're standing at the Cell Phones,    facing the Bakery.    Please point to the Clothing
+Imagine you're standing at the Cell Phones,    facing the Bakery.    Please point to the Coffee
+Imagine you're standing at the Cell Phones,    facing the Bakery.    Please point to the Dentist
+Imagine you're standing at the Cell Phones,    facing the Bakery.    Please point to the Florist
+Imagine you're standing at the Cell Phones,    facing the Bakery.    Please point to the Pharmacy
+Imagine you're standing at the Cell Phones,    facing the Barber.    Please point to the Bakery
+Imagine you're standing at the Cell Phones,    facing the Barber.    Please point to the Clothing
+Imagine you're standing at the Cell Phones,    facing the Barber.    Please point to the Coffee
+Imagine you're standing at the Cell Phones,    facing the Barber.    Please point to the Dentist
+Imagine you're standing at the Cell Phones,    facing the Barber.    Please point to the Florist
+Imagine you're standing at the Cell Phones,    facing the Barber.    Please point to the Pharmacy
+Imagine you're standing at the Cell Phones,    facing the Clothing.    Please point to the Bakery
+Imagine you're standing at the Cell Phones,    facing the Clothing.    Please point to the Barber
+Imagine you're standing at the Cell Phones,    facing the Clothing.    Please point to the Coffee
+Imagine you're standing at the Cell Phones,    facing the Clothing.    Please point to the Dentist
+Imagine you're standing at the Cell Phones,    facing the Clothing.    Please point to the Florist
+Imagine you're standing at the Cell Phones,    facing the Clothing.    Please point to the Pharmacy
+Imagine you're standing at the Cell Phones,    facing the Coffee.    Please point to the Bakery
+Imagine you're standing at the Cell Phones,    facing the Coffee.    Please point to the Barber
+Imagine you're standing at the Cell Phones,    facing the Coffee.    Please point to the Clothing
+Imagine you're standing at the Cell Phones,    facing the Coffee.    Please point to the Dentist
+Imagine you're standing at the Cell Phones,    facing the Coffee.    Please point to the Florist
+Imagine you're standing at the Cell Phones,    facing the Coffee.    Please point to the Pharmacy
+Imagine you're standing at the Cell Phones,    facing the Dentist.    Please point to the Bakery
+Imagine you're standing at the Cell Phones,    facing the Dentist.    Please point to the Barber
+Imagine you're standing at the Cell Phones,    facing the Dentist.    Please point to the Clothing
+Imagine you're standing at the Cell Phones,    facing the Dentist.    Please point to the Coffee
+Imagine you're standing at the Cell Phones,    facing the Dentist.    Please point to the Florist
+Imagine you're standing at the Cell Phones,    facing the Dentist.    Please point to the Pharmacy
+Imagine you're standing at the Cell Phones,    facing the Florist.    Please point to the Bakery
+Imagine you're standing at the Cell Phones,    facing the Florist.    Please point to the Barber
+Imagine you're standing at the Cell Phones,    facing the Florist.    Please point to the Clothing
+Imagine you're standing at the Cell Phones,    facing the Florist.    Please point to the Coffee
+Imagine you're standing at the Cell Phones,    facing the Florist.    Please point to the Dentist
+Imagine you're standing at the Cell Phones,    facing the Florist.    Please point to the Pharmacy
+Imagine you're standing at the Cell Phones,    facing the Pharmacy.    Please point to the Bakery
+Imagine you're standing at the Cell Phones,    facing the Pharmacy.    Please point to the Barber
+Imagine you're standing at the Cell Phones,    facing the Pharmacy.    Please point to the Clothing
+Imagine you're standing at the Cell Phones,    facing the Pharmacy.    Please point to the Coffee
+Imagine you're standing at the Cell Phones,    facing the Pharmacy.    Please point to the Dentist
+Imagine you're standing at the Cell Phones,    facing the Pharmacy.    Please point to the Florist
+Imagine you're standing at the Clothing,    facing the Bakery.    Please point to the Barber
+Imagine you're standing at the Clothing,    facing the Bakery.    Please point to the Cell Phones
+Imagine you're standing at the Clothing,    facing the Bakery.    Please point to the Coffee
+Imagine you're standing at the Clothing,    facing the Bakery.    Please point to the Dentist
+Imagine you're standing at the Clothing,    facing the Bakery.    Please point to the Florist
+Imagine you're standing at the Clothing,    facing the Bakery.    Please point to the Pharmacy
+Imagine you're standing at the Clothing,    facing the Barber.    Please point to the Bakery
+Imagine you're standing at the Clothing,    facing the Barber.    Please point to the Cell Phones
+Imagine you're standing at the Clothing,    facing the Barber.    Please point to the Coffee
+Imagine you're standing at the Clothing,    facing the Barber.    Please point to the Dentist
+Imagine you're standing at the Clothing,    facing the Barber.    Please point to the Florist
+Imagine you're standing at the Clothing,    facing the Barber.    Please point to the Pharmacy
+Imagine you're standing at the Clothing,    facing the Cell Phones.    Please point to the Bakery
+Imagine you're standing at the Clothing,    facing the Cell Phones.    Please point to the Barber
+Imagine you're standing at the Clothing,    facing the Cell Phones.    Please point to the Coffee
+Imagine you're standing at the Clothing,    facing the Cell Phones.    Please point to the Dentist
+Imagine you're standing at the Clothing,    facing the Cell Phones.    Please point to the Florist
+Imagine you're standing at the Clothing,    facing the Cell Phones.    Please point to the Pharmacy
+Imagine you're standing at the Clothing,    facing the Coffee.    Please point to the Bakery
+Imagine you're standing at the Clothing,    facing the Coffee.    Please point to the Barber
+Imagine you're standing at the Clothing,    facing the Coffee.    Please point to the Cell Phones
+Imagine you're standing at the Clothing,    facing the Coffee.    Please point to the Dentist
+Imagine you're standing at the Clothing,    facing the Coffee.    Please point to the Florist
+Imagine you're standing at the Clothing,    facing the Coffee.    Please point to the Pharmacy
+Imagine you're standing at the Clothing,    facing the Dentist.    Please point to the Bakery
+Imagine you're standing at the Clothing,    facing the Dentist.    Please point to the Barber
+Imagine you're standing at the Clothing,    facing the Dentist.    Please point to the Cell Phones
+Imagine you're standing at the Clothing,    facing the Dentist.    Please point to the Coffee
+Imagine you're standing at the Clothing,    facing the Dentist.    Please point to the Florist
+Imagine you're standing at the Clothing,    facing the Dentist.    Please point to the Pharmacy
+Imagine you're standing at the Clothing,    facing the Florist.    Please point to the Bakery
+Imagine you're standing at the Clothing,    facing the Florist.    Please point to the Barber
+Imagine you're standing at the Clothing,    facing the Florist.    Please point to the Cell Phones
+Imagine you're standing at the Clothing,    facing the Florist.    Please point to the Coffee
+Imagine you're standing at the Clothing,    facing the Florist.    Please point to the Dentist
+Imagine you're standing at the Clothing,    facing the Florist.    Please point to the Pharmacy
+Imagine you're standing at the Clothing,    facing the Pharmacy.    Please point to the Bakery
+Imagine you're standing at the Clothing,    facing the Pharmacy.    Please point to the Barber
+Imagine you're standing at the Clothing,    facing the Pharmacy.    Please point to the Cell Phones
+Imagine you're standing at the Clothing,    facing the Pharmacy.    Please point to the Coffee
+Imagine you're standing at the Clothing,    facing the Pharmacy.    Please point to the Dentist
+Imagine you're standing at the Clothing,    facing the Pharmacy.    Please point to the Florist
+Imagine you're standing at the Coffee,    facing the Bakery.    Please point to the Barber
+Imagine you're standing at the Coffee,    facing the Bakery.    Please point to the Cell Phones
+Imagine you're standing at the Coffee,    facing the Bakery.    Please point to the Clothing
+Imagine you're standing at the Coffee,    facing the Bakery.    Please point to the Dentist
+Imagine you're standing at the Coffee,    facing the Bakery.    Please point to the Florist
+Imagine you're standing at the Coffee,    facing the Bakery.    Please point to the Pharmacy
+Imagine you're standing at the Coffee,    facing the Barber.    Please point to the Bakery
+Imagine you're standing at the Coffee,    facing the Barber.    Please point to the Cell Phones
+Imagine you're standing at the Coffee,    facing the Barber.    Please point to the Clothing
+Imagine you're standing at the Coffee,    facing the Barber.    Please point to the Dentist
+Imagine you're standing at the Coffee,    facing the Barber.    Please point to the Florist
+Imagine you're standing at the Coffee,    facing the Barber.    Please point to the Pharmacy
+Imagine you're standing at the Coffee,    facing the Cell Phones.    Please point to the Bakery
+Imagine you're standing at the Coffee,    facing the Cell Phones.    Please point to the Barber
+Imagine you're standing at the Coffee,    facing the Cell Phones.    Please point to the Clothing
+Imagine you're standing at the Coffee,    facing the Cell Phones.    Please point to the Dentist
+Imagine you're standing at the Coffee,    facing the Cell Phones.    Please point to the Florist
+Imagine you're standing at the Coffee,    facing the Cell Phones.    Please point to the Pharmacy
+Imagine you're standing at the Coffee,    facing the Clothing.    Please point to the Bakery
+Imagine you're standing at the Coffee,    facing the Clothing.    Please point to the Barber
+Imagine you're standing at the Coffee,    facing the Clothing.    Please point to the Cell Phones
+Imagine you're standing at the Coffee,    facing the Clothing.    Please point to the Dentist
+Imagine you're standing at the Coffee,    facing the Clothing.    Please point to the Florist
+Imagine you're standing at the Coffee,    facing the Clothing.    Please point to the Pharmacy
+Imagine you're standing at the Coffee,    facing the Dentist.    Please point to the Bakery
+Imagine you're standing at the Coffee,    facing the Dentist.    Please point to the Barber
+Imagine you're standing at the Coffee,    facing the Dentist.    Please point to the Cell Phones
+Imagine you're standing at the Coffee,    facing the Dentist.    Please point to the Clothing
+Imagine you're standing at the Coffee,    facing the Dentist.    Please point to the Florist
+Imagine you're standing at the Coffee,    facing the Dentist.    Please point to the Pharmacy
+Imagine you're standing at the Coffee,    facing the Florist.    Please point to the Bakery
+Imagine you're standing at the Coffee,    facing the Florist.    Please point to the Barber
+Imagine you're standing at the Coffee,    facing the Florist.    Please point to the Cell Phones
+Imagine you're standing at the Coffee,    facing the Florist.    Please point to the Clothing
+Imagine you're standing at the Coffee,    facing the Florist.    Please point to the Dentist
+Imagine you're standing at the Coffee,    facing the Florist.    Please point to the Pharmacy
+Imagine you're standing at the Coffee,    facing the Pharmacy.    Please point to the Bakery
+Imagine you're standing at the Coffee,    facing the Pharmacy.    Please point to the Barber
+Imagine you're standing at the Coffee,    facing the Pharmacy.    Please point to the Cell Phones
+Imagine you're standing at the Coffee,    facing the Pharmacy.    Please point to the Clothing
+Imagine you're standing at the Coffee,    facing the Pharmacy.    Please point to the Dentist
+Imagine you're standing at the Coffee,    facing the Pharmacy.    Please point to the Florist
+Imagine you're standing at the Dentist,    facing the Bakery.    Please point to the Barber
+Imagine you're standing at the Dentist,    facing the Bakery.    Please point to the Cell Phones
+Imagine you're standing at the Dentist,    facing the Bakery.    Please point to the Clothing
+Imagine you're standing at the Dentist,    facing the Bakery.    Please point to the Coffee
+Imagine you're standing at the Dentist,    facing the Bakery.    Please point to the Florist
+Imagine you're standing at the Dentist,    facing the Bakery.    Please point to the Pharmacy
+Imagine you're standing at the Dentist,    facing the Barber.    Please point to the Bakery
+Imagine you're standing at the Dentist,    facing the Barber.    Please point to the Cell Phones
+Imagine you're standing at the Dentist,    facing the Barber.    Please point to the Clothing
+Imagine you're standing at the Dentist,    facing the Barber.    Please point to the Coffee
+Imagine you're standing at the Dentist,    facing the Barber.    Please point to the Florist
+Imagine you're standing at the Dentist,    facing the Barber.    Please point to the Pharmacy
+Imagine you're standing at the Dentist,    facing the Cell Phones.    Please point to the Bakery
+Imagine you're standing at the Dentist,    facing the Cell Phones.    Please point to the Barber
+Imagine you're standing at the Dentist,    facing the Cell Phones.    Please point to the Clothing
+Imagine you're standing at the Dentist,    facing the Cell Phones.    Please point to the Coffee
+Imagine you're standing at the Dentist,    facing the Cell Phones.    Please point to the Florist
+Imagine you're standing at the Dentist,    facing the Cell Phones.    Please point to the Pharmacy
+Imagine you're standing at the Dentist,    facing the Clothing.    Please point to the Bakery
+Imagine you're standing at the Dentist,    facing the Clothing.    Please point to the Barber
+Imagine you're standing at the Dentist,    facing the Clothing.    Please point to the Cell Phones
+Imagine you're standing at the Dentist,    facing the Clothing.    Please point to the Coffee
+Imagine you're standing at the Dentist,    facing the Clothing.    Please point to the Florist
+Imagine you're standing at the Dentist,    facing the Clothing.    Please point to the Pharmacy
+Imagine you're standing at the Dentist,    facing the Coffee.    Please point to the Bakery
+Imagine you're standing at the Dentist,    facing the Coffee.    Please point to the Barber
+Imagine you're standing at the Dentist,    facing the Coffee.    Please point to the Cell Phones
+Imagine you're standing at the Dentist,    facing the Coffee.    Please point to the Clothing
+Imagine you're standing at the Dentist,    facing the Coffee.    Please point to the Florist
+Imagine you're standing at the Dentist,    facing the Coffee.    Please point to the Pharmacy
+Imagine you're standing at the Dentist,    facing the Florist.    Please point to the Bakery
+Imagine you're standing at the Dentist,    facing the Florist.    Please point to the Barber
+Imagine you're standing at the Dentist,    facing the Florist.    Please point to the Cell Phones
+Imagine you're standing at the Dentist,    facing the Florist.    Please point to the Clothing
+Imagine you're standing at the Dentist,    facing the Florist.    Please point to the Coffee
+Imagine you're standing at the Dentist,    facing the Florist.    Please point to the Pharmacy
+Imagine you're standing at the Dentist,    facing the Pharmacy.    Please point to the Bakery
+Imagine you're standing at the Dentist,    facing the Pharmacy.    Please point to the Barber
+Imagine you're standing at the Dentist,    facing the Pharmacy.    Please point to the Cell Phones
+Imagine you're standing at the Dentist,    facing the Pharmacy.    Please point to the Clothing
+Imagine you're standing at the Dentist,    facing the Pharmacy.    Please point to the Coffee
+Imagine you're standing at the Dentist,    facing the Pharmacy.    Please point to the Florist
+Imagine you're standing at the Florist,    facing the Bakery.    Please point to the Barber
+Imagine you're standing at the Florist,    facing the Bakery.    Please point to the Cell Phones
+Imagine you're standing at the Florist,    facing the Bakery.    Please point to the Clothing
+Imagine you're standing at the Florist,    facing the Bakery.    Please point to the Coffee
+Imagine you're standing at the Florist,    facing the Bakery.    Please point to the Dentist
+Imagine you're standing at the Florist,    facing the Bakery.    Please point to the Pharmacy
+Imagine you're standing at the Florist,    facing the Barber.    Please point to the Bakery
+Imagine you're standing at the Florist,    facing the Barber.    Please point to the Cell Phones
+Imagine you're standing at the Florist,    facing the Barber.    Please point to the Clothing
+Imagine you're standing at the Florist,    facing the Barber.    Please point to the Coffee
+Imagine you're standing at the Florist,    facing the Barber.    Please point to the Dentist
+Imagine you're standing at the Florist,    facing the Barber.    Please point to the Pharmacy
+Imagine you're standing at the Florist,    facing the Cell Phones.    Please point to the Bakery
+Imagine you're standing at the Florist,    facing the Cell Phones.    Please point to the Barber
+Imagine you're standing at the Florist,    facing the Cell Phones.    Please point to the Clothing
+Imagine you're standing at the Florist,    facing the Cell Phones.    Please point to the Coffee
+Imagine you're standing at the Florist,    facing the Cell Phones.    Please point to the Dentist
+Imagine you're standing at the Florist,    facing the Cell Phones.    Please point to the Pharmacy
+Imagine you're standing at the Florist,    facing the Clothing.    Please point to the Bakery
+Imagine you're standing at the Florist,    facing the Clothing.    Please point to the Barber
+Imagine you're standing at the Florist,    facing the Clothing.    Please point to the Cell Phones
+Imagine you're standing at the Florist,    facing the Clothing.    Please point to the Coffee
+Imagine you're standing at the Florist,    facing the Clothing.    Please point to the Dentist
+Imagine you're standing at the Florist,    facing the Clothing.    Please point to the Pharmacy
+Imagine you're standing at the Florist,    facing the Coffee.    Please point to the Bakery
+Imagine you're standing at the Florist,    facing the Coffee.    Please point to the Barber
+Imagine you're standing at the Florist,    facing the Coffee.    Please point to the Cell Phones
+Imagine you're standing at the Florist,    facing the Coffee.    Please point to the Clothing
+Imagine you're standing at the Florist,    facing the Coffee.    Please point to the Dentist
+Imagine you're standing at the Florist,    facing the Coffee.    Please point to the Pharmacy
+Imagine you're standing at the Florist,    facing the Dentist.    Please point to the Bakery
+Imagine you're standing at the Florist,    facing the Dentist.    Please point to the Barber
+Imagine you're standing at the Florist,    facing the Dentist.    Please point to the Cell Phones
+Imagine you're standing at the Florist,    facing the Dentist.    Please point to the Clothing
+Imagine you're standing at the Florist,    facing the Dentist.    Please point to the Coffee
+Imagine you're standing at the Florist,    facing the Dentist.    Please point to the Pharmacy
+Imagine you're standing at the Florist,    facing the Pharmacy.    Please point to the Bakery
+Imagine you're standing at the Florist,    facing the Pharmacy.    Please point to the Barber
+Imagine you're standing at the Florist,    facing the Pharmacy.    Please point to the Cell Phones
+Imagine you're standing at the Florist,    facing the Pharmacy.    Please point to the Clothing
+Imagine you're standing at the Florist,    facing the Pharmacy.    Please point to the Coffee
+Imagine you're standing at the Florist,    facing the Pharmacy.    Please point to the Dentist
+Imagine you're standing at the Pharmacy,    facing the Bakery.    Please point to the Barber
+Imagine you're standing at the Pharmacy,    facing the Bakery.    Please point to the Cell Phones
+Imagine you're standing at the Pharmacy,    facing the Bakery.    Please point to the Clothing
+Imagine you're standing at the Pharmacy,    facing the Bakery.    Please point to the Coffee
+Imagine you're standing at the Pharmacy,    facing the Bakery.    Please point to the Dentist
+Imagine you're standing at the Pharmacy,    facing the Bakery.    Please point to the Florist
+Imagine you're standing at the Pharmacy,    facing the Barber.    Please point to the Bakery
+Imagine you're standing at the Pharmacy,    facing the Barber.    Please point to the Cell Phones
+Imagine you're standing at the Pharmacy,    facing the Barber.    Please point to the Clothing
+Imagine you're standing at the Pharmacy,    facing the Barber.    Please point to the Coffee
+Imagine you're standing at the Pharmacy,    facing the Barber.    Please point to the Dentist
+Imagine you're standing at the Pharmacy,    facing the Barber.    Please point to the Florist
+Imagine you're standing at the Pharmacy,    facing the Cell Phones.    Please point to the Bakery
+Imagine you're standing at the Pharmacy,    facing the Cell Phones.    Please point to the Barber
+Imagine you're standing at the Pharmacy,    facing the Cell Phones.    Please point to the Clothing
+Imagine you're standing at the Pharmacy,    facing the Cell Phones.    Please point to the Coffee
+Imagine you're standing at the Pharmacy,    facing the Cell Phones.    Please point to the Dentist
+Imagine you're standing at the Pharmacy,    facing the Cell Phones.    Please point to the Florist
+Imagine you're standing at the Pharmacy,    facing the Clothing.    Please point to the Bakery
+Imagine you're standing at the Pharmacy,    facing the Clothing.    Please point to the Barber
+Imagine you're standing at the Pharmacy,    facing the Clothing.    Please point to the Cell Phones
+Imagine you're standing at the Pharmacy,    facing the Clothing.    Please point to the Coffee
+Imagine you're standing at the Pharmacy,    facing the Clothing.    Please point to the Dentist
+Imagine you're standing at the Pharmacy,    facing the Clothing.    Please point to the Florist
+Imagine you're standing at the Pharmacy,    facing the Coffee.    Please point to the Bakery
+Imagine you're standing at the Pharmacy,    facing the Coffee.    Please point to the Barber
+Imagine you're standing at the Pharmacy,    facing the Coffee.    Please point to the Cell Phones
+Imagine you're standing at the Pharmacy,    facing the Coffee.    Please point to the Clothing
+Imagine you're standing at the Pharmacy,    facing the Coffee.    Please point to the Dentist
+Imagine you're standing at the Pharmacy,    facing the Coffee.    Please point to the Florist
+Imagine you're standing at the Pharmacy,    facing the Dentist.    Please point to the Bakery
+Imagine you're standing at the Pharmacy,    facing the Dentist.    Please point to the Barber
+Imagine you're standing at the Pharmacy,    facing the Dentist.    Please point to the Cell Phones
+Imagine you're standing at the Pharmacy,    facing the Dentist.    Please point to the Clothing
+Imagine you're standing at the Pharmacy,    facing the Dentist.    Please point to the Coffee
+Imagine you're standing at the Pharmacy,    facing the Dentist.    Please point to the Florist
+Imagine you're standing at the Pharmacy,    facing the Florist.    Please point to the Bakery
+Imagine you're standing at the Pharmacy,    facing the Florist.    Please point to the Barber
+Imagine you're standing at the Pharmacy,    facing the Florist.    Please point to the Cell Phones
+Imagine you're standing at the Pharmacy,    facing the Florist.    Please point to the Clothing
+Imagine you're standing at the Pharmacy,    facing the Florist.    Please point to the Coffee
+Imagine you're standing at the Pharmacy,    facing the Florist.    Please point to the Dentist

@@ -1,0 +1,9 @@
+In this game, you will play a pedestrian dropped off at a
+bus stop in a virtual city. 
+
+Follow the instructions to find specific stores in the city.
+
+Pay attention to the stores' locations, because you will 
+be asked to point to those locations later.
+
+Press RETURN to continue.

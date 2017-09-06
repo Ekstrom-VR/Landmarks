@@ -1,0 +1,240 @@
+Imagine standing at 1ST Bank, facing Book Store; point to Florist.
+
+Imagine standing at 1ST Bank, facing Book Store; point to Pizzeria.
+
+Imagine standing at 1ST Bank, facing Book Store; point to Pharmacy.
+
+Imagine standing at 1ST Bank, facing Book Store; point to Clothing Store.
+
+Imagine standing at 1ST Bank, facing Florist; point to Book Store.
+
+Imagine standing at 1ST Bank, facing Florist; point to Pizzeria.
+
+Imagine standing at 1ST Bank, facing Florist; point to Pharmacy.
+
+Imagine standing at 1ST Bank, facing Florist; point to Clothing Store.
+
+Imagine standing at 1ST Bank, facing Pizzeria; point to Book Store.
+
+Imagine standing at 1ST Bank, facing Pizzeria; point to Florist.
+
+Imagine standing at 1ST Bank, facing Pizzeria; point to Pharmacy.
+
+Imagine standing at 1ST Bank, facing Pizzeria; point to Clothing Store.
+
+Imagine standing at 1ST Bank, facing Pharmacy; point to Book Store.
+
+Imagine standing at 1ST Bank, facing Pharmacy; point to Florist.
+
+Imagine standing at 1ST Bank, facing Pharmacy; point to Pizzeria.
+
+Imagine standing at 1ST Bank, facing Pharmacy; point to Clothing Store.
+
+Imagine standing at 1ST Bank, facing Clothing Store; point to Book Store.
+
+Imagine standing at 1ST Bank, facing Clothing Store; point to Florist.
+
+Imagine standing at 1ST Bank, facing Clothing Store; point to Pizzeria.
+
+Imagine standing at 1ST Bank, facing Clothing Store; point to Pharmacy.
+
+Imagine standing at Book Store, facing 1ST Bank; point to Florist.
+
+Imagine standing at Book Store, facing 1ST Bank; point to Pizzeria.
+
+Imagine standing at Book Store, facing 1ST Bank; point to Pharmacy.
+
+Imagine standing at Book Store, facing 1ST Bank; point to Clothing Store.
+
+Imagine standing at Book Store, facing Florist; point to 1ST Bank.
+
+Imagine standing at Book Store, facing Florist; point to Pizzeria.
+
+Imagine standing at Book Store, facing Florist; point to Pharmacy.
+
+Imagine standing at Book Store, facing Florist; point to Clothing Store.
+
+Imagine standing at Book Store, facing Pizzeria; point to 1ST Bank.
+
+Imagine standing at Book Store, facing Pizzeria; point to Florist.
+
+Imagine standing at Book Store, facing Pizzeria; point to Pharmacy.
+
+Imagine standing at Book Store, facing Pizzeria; point to Clothing Store.
+
+Imagine standing at Book Store, facing Pharmacy; point to 1ST Bank.
+
+Imagine standing at Book Store, facing Pharmacy; point to Florist.
+
+Imagine standing at Book Store, facing Pharmacy; point to Pizzeria.
+
+Imagine standing at Book Store, facing Pharmacy; point to Clothing Store.
+
+Imagine standing at Book Store, facing Clothing Store; point to 1ST Bank.
+
+Imagine standing at Book Store, facing Clothing Store; point to Florist.
+
+Imagine standing at Book Store, facing Clothing Store; point to Pizzeria.
+
+Imagine standing at Book Store, facing Clothing Store; point to Pharmacy.
+
+Imagine standing at Florist, facing 1ST Bank; point to Book Store.
+
+Imagine standing at Florist, facing 1ST Bank; point to Pizzeria.
+
+Imagine standing at Florist, facing 1ST Bank; point to Pharmacy.
+
+Imagine standing at Florist, facing 1ST Bank; point to Clothing Store.
+
+Imagine standing at Florist, facing Book Store; point to 1ST Bank.
+
+Imagine standing at Florist, facing Book Store; point to Pizzeria.
+
+Imagine standing at Florist, facing Book Store; point to Pharmacy.
+
+Imagine standing at Florist, facing Book Store; point to Clothing Store.
+
+Imagine standing at Florist, facing Pizzeria; point to 1ST Bank.
+
+Imagine standing at Florist, facing Pizzeria; point to Book Store.
+
+Imagine standing at Florist, facing Pizzeria; point to Pharmacy.
+
+Imagine standing at Florist, facing Pizzeria; point to Clothing Store.
+
+Imagine standing at Florist, facing Pharmacy; point to 1ST Bank.
+
+Imagine standing at Florist, facing Pharmacy; point to Book Store.
+
+Imagine standing at Florist, facing Pharmacy; point to Pizzeria.
+
+Imagine standing at Florist, facing Pharmacy; point to Clothing Store.
+
+Imagine standing at Florist, facing Clothing Store; point to 1ST Bank.
+
+Imagine standing at Florist, facing Clothing Store; point to Book Store.
+
+Imagine standing at Florist, facing Clothing Store; point to Pizzeria.
+
+Imagine standing at Florist, facing Clothing Store; point to Pharmacy.
+
+Imagine standing at Pizzeria, facing 1ST Bank; point to Book Store.
+
+Imagine standing at Pizzeria, facing 1ST Bank; point to Florist.
+
+Imagine standing at Pizzeria, facing 1ST Bank; point to Pharmacy.
+
+Imagine standing at Pizzeria, facing 1ST Bank; point to Clothing Store.
+
+Imagine standing at Pizzeria, facing Book Store; point to 1ST Bank.
+
+Imagine standing at Pizzeria, facing Book Store; point to Florist.
+
+Imagine standing at Pizzeria, facing Book Store; point to Pharmacy.
+
+Imagine standing at Pizzeria, facing Book Store; point to Clothing Store.
+
+Imagine standing at Pizzeria, facing Florist; point to 1ST Bank.
+
+Imagine standing at Pizzeria, facing Florist; point to Book Store.
+
+Imagine standing at Pizzeria, facing Florist; point to Pharmacy.
+
+Imagine standing at Pizzeria, facing Florist; point to Clothing Store.
+
+Imagine standing at Pizzeria, facing Pharmacy; point to 1ST Bank.
+
+Imagine standing at Pizzeria, facing Pharmacy; point to Book Store.
+
+Imagine standing at Pizzeria, facing Pharmacy; point to Florist.
+
+Imagine standing at Pizzeria, facing Pharmacy; point to Clothing Store.
+
+Imagine standing at Pizzeria, facing Clothing Store; point to 1ST Bank.
+
+Imagine standing at Pizzeria, facing Clothing Store; point to Book Store.
+
+Imagine standing at Pizzeria, facing Clothing Store; point to Florist.
+
+Imagine standing at Pizzeria, facing Clothing Store; point to Pharmacy.
+
+Imagine standing at Pharmacy, facing 1ST Bank; point to Book Store.
+
+Imagine standing at Pharmacy, facing 1ST Bank; point to Florist.
+
+Imagine standing at Pharmacy, facing 1ST Bank; point to Pizzeria.
+
+Imagine standing at Pharmacy, facing 1ST Bank; point to Clothing Store.
+
+Imagine standing at Pharmacy, facing Book Store; point to 1ST Bank.
+
+Imagine standing at Pharmacy, facing Book Store; point to Florist.
+
+Imagine standing at Pharmacy, facing Book Store; point to Pizzeria.
+
+Imagine standing at Pharmacy, facing Book Store; point to Clothing Store.
+
+Imagine standing at Pharmacy, facing Florist; point to 1ST Bank.
+
+Imagine standing at Pharmacy, facing Florist; point to Book Store.
+
+Imagine standing at Pharmacy, facing Florist; point to Pizzeria.
+
+Imagine standing at Pharmacy, facing Florist; point to Clothing Store.
+
+Imagine standing at Pharmacy, facing Pizzeria; point to 1ST Bank.
+
+Imagine standing at Pharmacy, facing Pizzeria; point to Book Store.
+
+Imagine standing at Pharmacy, facing Pizzeria; point to Florist.
+
+Imagine standing at Pharmacy, facing Pizzeria; point to Clothing Store.
+
+Imagine standing at Pharmacy, facing Clothing Store; point to 1ST Bank.
+
+Imagine standing at Pharmacy, facing Clothing Store; point to Book Store.
+
+Imagine standing at Pharmacy, facing Clothing Store; point to Florist.
+
+Imagine standing at Pharmacy, facing Clothing Store; point to Pizzeria.
+
+Imagine standing at Clothing Store, facing 1ST Bank; point to Book Store.
+
+Imagine standing at Clothing Store, facing 1ST Bank; point to Florist.
+
+Imagine standing at Clothing Store, facing 1ST Bank; point to Pizzeria.
+
+Imagine standing at Clothing Store, facing 1ST Bank; point to Pharmacy.
+
+Imagine standing at Clothing Store, facing Book Store; point to 1ST Bank.
+
+Imagine standing at Clothing Store, facing Book Store; point to Florist.
+
+Imagine standing at Clothing Store, facing Book Store; point to Pizzeria.
+
+Imagine standing at Clothing Store, facing Book Store; point to Pharmacy.
+
+Imagine standing at Clothing Store, facing Florist; point to 1ST Bank.
+
+Imagine standing at Clothing Store, facing Florist; point to Book Store.
+
+Imagine standing at Clothing Store, facing Florist; point to Pizzeria.
+
+Imagine standing at Clothing Store, facing Florist; point to Pharmacy.
+
+Imagine standing at Clothing Store, facing Pizzeria; point to 1ST Bank.
+
+Imagine standing at Clothing Store, facing Pizzeria; point to Book Store.
+
+Imagine standing at Clothing Store, facing Pizzeria; point to Florist.
+
+Imagine standing at Clothing Store, facing Pizzeria; point to Pharmacy.
+
+Imagine standing at Clothing Store, facing Pharmacy; point to 1ST Bank.
+
+Imagine standing at Clothing Store, facing Pharmacy; point to Book Store.
+
+Imagine standing at Clothing Store, facing Pharmacy; point to Florist.
+
+Imagine standing at Clothing Store, facing Pharmacy; point to Pizzeria.
+

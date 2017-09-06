@@ -1,0 +1,12 @@
+Imagine standing at Barber, facing Camera Store; point to Coffee Shop.
+
+Imagine standing at Barber, facing Coffee Shop; point to Camera Store.
+
+Imagine standing at Camera Store, Barber; point to Coffee Shop.
+
+Imagine standing at Camera Store, facing Coffee Shop; point to Barber.
+
+Imagine standing at Coffee Shop, Barber; point to Camera Shop.
+
+Imagine standing at Coffee Shop, facing Camera Shop; point to Barber.
+

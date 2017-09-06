@@ -1,0 +1,11 @@
+
+
+Imagine you are at Clothing store \n with your back facing the center of the city.  \nPoint to Mike's Restaurant.
+
+Point to the Clothing Store.
+
+Point to the Clothing Store.
+
+Imagine you are at Clothing store \n with your back facing the center of the city.  \nPoint to Mike's Restaurant.
+
+Imagine you are facing Burger City.  \nPoint to the Clothing Store.

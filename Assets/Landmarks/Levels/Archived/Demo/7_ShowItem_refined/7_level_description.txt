@@ -1,0 +1,7 @@
+This level does the following:
+
+Specifies ordered deliveries.
+Associates specific item with store
+Shows item image and text description
+
+Note: chage grammer by changing item names.

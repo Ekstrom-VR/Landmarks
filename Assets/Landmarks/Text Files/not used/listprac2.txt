@@ -1,0 +1,243 @@
+Imagine standing at Camera Store, facing Craft Store; point to Bike Store.
+
+Imagine standing at Camera Store, facing Craft Store; point to Butcher Shop.
+
+Imagine standing at Camera Store, facing Craft Store; point to Ice Cream.
+
+Imagine standing at Camera Store, facing Craft Store; point to Cell Phones.
+
+Imagine standing at Camera Store, facing Bike Store; point to Craft Store.
+
+Imagine standing at Camera Store, facing Bike Store; point to Butcher Shop.
+
+Imagine standing at Camera Store, facing Bike Store; point to Ice Cream.
+
+Imagine standing at Camera Store, facing Bike Store; point to Cell Phones.
+
+Imagine standing at Camera Store, facing Butcher Shop; point to Craft Store.
+
+Imagine standing at Camera Store, facing Butcher Shop; point to Bike Store.
+
+Imagine standing at Camera Store, facing Butcher Shop; point to Ice Cream.
+
+Imagine standing at Camera Store, facing Butcher Shop; point to Cell Phones.
+
+Imagine standing at Camera Store, facing Ice Cream; point to Craft Store.
+
+Imagine standing at Camera Store, facing Ice Cream; point to Bike Store.
+
+Imagine standing at Camera Store, facing Ice Cream; point to Butcher Shop.
+
+Imagine standing at Camera Store, facing Ice Cream; point to Cell Phones.
+
+Imagine standing at Camera Store, facing Cell Phones; point to Craft Store.
+
+Imagine standing at Camera Store, facing Cell Phones; point to Bike Store.
+
+Imagine standing at Camera Store, facing Cell Phones; point to Butcher Shop.
+
+Imagine standing at Camera Store, facing Cell Phones; point to Ice Cream.
+
+Imagine standing at Craft Store, facing Camera Store; point to Bike Store.
+
+Imagine standing at Craft Store, facing Camera Store; point to Butcher Shop.
+
+Imagine standing at Craft Store, facing Camera Store; point to Ice Cream.
+
+Imagine standing at Craft Store, facing Camera Store; point to Cell Phones.
+
+Imagine standing at Craft Store, facing Bike Store; point to Camera Store.
+
+Imagine standing at Craft Store, facing Bike Store; point to Butcher Shop.
+
+Imagine standing at Craft Store, facing Bike Store; point to Ice Cream.
+
+Imagine standing at Craft Store, facing Bike Store; point to Cell Phones.
+
+Imagine standing at Craft Store, facing Butcher Shop; point to Camera Store.
+
+Imagine standing at Craft Store, facing Butcher Shop; point to Bike Store.
+
+Imagine standing at Craft Store, facing Butcher Shop; point to Ice Cream.
+
+Imagine standing at Craft Store, facing Butcher Shop; point to Cell Phones.
+
+Imagine standing at Craft Store, facing Ice Cream; point to Camera Store.
+
+Imagine standing at Craft Store, facing Ice Cream; point to Bike Store.
+
+Imagine standing at Craft Store, facing Ice Cream; point to Butcher Shop.
+
+Imagine standing at Craft Store, facing Ice Cream; point to Cell Phones.
+
+Imagine standing at Craft Store, facing Cell Phones; point to Camera Store.
+
+Imagine standing at Craft Store, facing Cell Phones; point to Bike Store.
+
+Imagine standing at Craft Store, facing Cell Phones; point to Butcher Shop.
+
+Imagine standing at Craft Store, facing Cell Phones; point to Ice Cream.
+
+Imagine standing at Bike Store, facing Camera Store; point to Craft Store.
+
+Imagine standing at Bike Store, facing Camera Store; point to Butcher Shop.
+
+Imagine standing at Bike Store, facing Camera Store; point to Ice Cream.
+
+Imagine standing at Bike Store, facing Camera Store; point to Cell Phones.
+
+Imagine standing at Bike Store, facing CraftStore; point to Camera Store.
+
+Imagine standing at Bike Store, facing Craft Store; point to Butcher Shop.
+
+Imagine standing at Bike Store, facing Craft Store; point to Ice Cream.
+
+Imagine standing at Bike Store, facing Craft Store; point to Cell Phones.
+
+Imagine standing at Bike Store, facing Butcher Shop; point to Camera Store.
+
+Imagine standing at Bike Store, facing Butcher Shop; point to Craft Store.
+
+Imagine standing at Bike Store, facing Butcher Shop; point to Ice Cream.
+
+Imagine standing at Bike Store, facing Butcher Shop; point to Cell Phones.
+
+Imagine standing at Bike Store, facing Ice Cream; point to Camera Store.
+
+Imagine standing at Bike Store, facing Ice Cream; point to Craft Store.
+
+Imagine standing at Bike Store, facing Ice Cream; point to Butcher Shop.
+
+Imagine standing at Bike Store, facing Ice Cream; point to Cell Phones.
+
+Imagine standing at Bike Store, facing Cell Phones; point to Camera Store.
+
+Imagine standing at Bike Store, facing Cell Phones; point to Craft Store.
+
+Imagine standing at Bike Store, facing Cell Phones; point to Butcher Shop.
+
+Imagine standing at Bike Store, facing Cell Phones; point to Ice Cream.
+
+Imagine standing at Butcher Shop, facing Camera Store; point to Craft Store.
+
+Imagine standing at Butcher Shop, facing Camera Store; point to Bike Store.
+
+Imagine standing at Butcher Shop, facing Camera Store; point to Ice Cream.
+
+Imagine standing at Butcher Shop, facing Camera Store; point to Cell Phones.
+
+Imagine standing at Butcher Shop, facing Craft Store; point to Camera Store.
+
+Imagine standing at Butcher Shop, facing Craft Store; point to Bike Store.
+
+Imagine standing at Butcher Shop, facing Craft Store; point to Ice Cream.
+
+Imagine standing at Butcher Shop, facing Craft Store; point to Cell Phones.
+
+Imagine standing at Butcher Shop, facing Bike Store; point to Camera Store.
+
+Imagine standing at Butcher Shop, facing Bike Store; point to Craft Store.
+
+Imagine standing at Butcher Shop, facing Bike Store; point to Ice Cream.
+
+Imagine standing at Butcher Shop, facing Bike Store; point to Cell Phones.
+
+Imagine standing at Butcher Shop, facing Ice Cream; point to Camera Store.
+
+Imagine standing at Butcher Shop, facing Ice Cream; point to Craft Store.
+
+Imagine standing at Butcher Shop, facing Ice Cream; point to Bike Store.
+
+Imagine standing at Butcher Shop, facing Ice Cream; point to Cell Phones.
+
+Imagine standing at Butcher Shop, facing Cell Phones; point to Camera Store.
+
+Imagine standing at Butcher Shop, facing Cell Phones; point to Craft Store.
+
+Imagine standing at Butcher Shop, facing Cell Phones; point to Bike Store.
+
+Imagine standing at Butcher Shop, facing Cell Phones; point to Ice Cream.
+
+Imagine standing at Ice Cream, facing Camera Store; point to Craft Store.
+
+Imagine standing at Ice Cream, facing Camera Store; point to Bike Store.
+
+Imagine standing at Ice Cream, facing Camera Store; point to Butcher Shop.
+
+Imagine standing at Ice Cream, facing Camera Store; point to Cell Phones.
+
+Imagine standing at Ice Cream, facing Craft Store; point to Camera Store.
+
+Imagine standing at Ice Cream, facing Craft Store; point to Bike Store.
+
+Imagine standing at Ice Cream, facing Craft Store; point to Butcher Shop.
+
+Imagine standing at Ice Cream, facing Craft Store; point to Cell Phones.
+
+Imagine standing at Ice Cream, facing Bike Store; point to Camera Store.
+
+Imagine standing at Ice Cream, facing Bike Store; point to Craft Store.
+
+Imagine standing at Ice Cream, facing Bike Store; point to Butcher Shop.
+
+Imagine standing at Ice Cream, facing Bike Store; point to Cell Phones.
+
+Imagine standing at Ice Cream, facing Butcher Shop; point to Camera Store.
+
+Imagine standing at Ice Cream, facing Butcher Shop; point to Craft Store.
+
+Imagine standing at Ice Cream, facing Butcher Shop; point to Bike Store.
+
+Imagine standing at Ice Cream, facing Butcher Shop; point to Cell Phones.
+
+Imagine standing at Ice Cream, facing Cell Phones; point to Camera Store.
+
+Imagine standing at Ice Cream, facing Cell Phones; point to Craft Store.
+
+Imagine standing at Ice Cream, facing Cell Phones; point to Bike Store.
+
+Imagine standing at Ice Cream, facing Cell Phones; point to Butcher Shop.
+
+Imagine standing at Cell Phones, facing Camera Store; point to Craft Store.
+
+Imagine standing at ClCell Phones, facing Camera Store; point to Bike Store.
+
+Imagine standing at Cell Phones, facing Camera Store point to Butcher Shop.
+
+Imagine standing at Cell Phones, facing Camera Store; point to Ice Cream.
+
+Imagine standing at Cell Phones, facing Craft Store; point to Camera Store.
+
+Imagine standing at Cell Phones, facing Craft Store; point to Bike Store.
+
+Imagine standing at Cell Phones, facing Craft Store; point to Butcher Shop.
+
+Imagine standing at Cell Phones, facing Craft Store; point to Ice Cream.
+
+Imagine standing at Cell Phones, facing Bike Store; point to Camera Store.
+
+Imagine standing at Cell Phones, facing Bike Store; point to Craft Store.
+
+Imagine standing at Cell Phones, facing Bike Store; point to Butcher Shop.
+
+Imagine standing at Cell Phones, facing Bike Store; point to Ice Cream.
+
+Imagine standing at Cell Phones, facing Butcher Shop; point to Camera Store.
+
+Imagine standing at Cell Phones, facing Butcher Shop; point to Craft Store.
+
+Imagine standing at Cell Phones, facing Butcher Shop; point to Bike Store.
+
+Imagine standing at Cell Phones, facing Butcher Shop; point to Ice Cream.
+
+Imagine standing at Cell Phones, facing Ice Cream; point to Camera Store.
+
+Imagine standing at Cell Phones, facing Ice Cream; point to Craft Store.
+
+Imagine standing at Cell Phones, facing Ice Cream; point to Bike Store.
+
+Imagine standing at Cell Phones, facing Ice Cream; point to Butcher Shop.
+
+
+
+

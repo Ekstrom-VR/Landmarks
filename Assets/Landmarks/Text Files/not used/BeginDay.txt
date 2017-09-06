@@ -1,0 +1,1 @@
+Press return to begin delivery day number {0}

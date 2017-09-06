@@ -1,0 +1,5 @@
+This level does the following:
+
+*Ordered* deliveries to 4 stores
+Comfirms "Great job, you found the..."
+Upon delivery, returns avatar to starting position at center.

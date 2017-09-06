@@ -1,0 +1,7 @@
+This is a test of your memory for the locations
+of stores in the city. You will return to the same
+city as before, except that now the target stores are
+invisible. You will be asked to orient yourself within
+the city, and then to point to specific locations.
+
+Press SPACE now to continue.

@@ -1,0 +1,6 @@
+Deliveries
+
+In this part of the experiment, you will be asked to make a series of deliveries to stores. 
+
+
+Press return to begin.

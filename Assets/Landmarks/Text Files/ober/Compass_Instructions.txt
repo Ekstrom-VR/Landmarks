@@ -1,0 +1,7 @@
+Compass
+
+You will use a virtual compass to point to these locations within the city. Use the 
+arrow keys to move the compass arrow and press the return key when you 
+have selected your choice.
+
+Press return to begin using the compass.

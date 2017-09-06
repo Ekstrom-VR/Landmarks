@@ -1,0 +1,3 @@
+Great job, you found the {0}
+
+Press RETURN to go back to the Bus Stop.

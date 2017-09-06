@@ -1,0 +1,240 @@
+Imagine standing at Dentist, facing Grocery Store; point to Ice Cream.
+
+Imagine standing at Dentist, facing Grocery Store; point to Pet Store.
+
+Imagine standing at Dentist, facing Grocery Store; point to Chinese Food.
+
+Imagine standing at Dentist, facing Grocery Store; point to Bakery.
+
+Imagine standing at Dentist, facing Ice Cream; point to Grocery Store.
+
+Imagine standing at Dentist, facing Ice Cream; point to Pet Store.
+
+Imagine standing at Dentist, facing Ice Cream; point to Chinese Food.
+
+Imagine standing at Dentist, facing Ice Cream; point to Bakery.
+
+Imagine standing at Dentist, facing Pet Store; point to Grocery Store.
+
+Imagine standing at Dentist, facing Pet Store; point to Ice Cream.
+
+Imagine standing at Dentist, facing Pet Store; point to Chinese Food.
+
+Imagine standing at Dentist, facing Pet Store; point to Bakery.
+
+Imagine standing at Dentist, facing Chinese Food; point to Grocery Store.
+
+Imagine standing at Dentist, facing Chinese Food; point to Ice Cream.
+
+Imagine standing at Dentist, facing Chinese Food; point to Pet Store.
+
+Imagine standing at Dentist, facing Chinese Food; point to Bakery.
+
+Imagine standing at Dentist, facing Bakery; point to Grocery Store.
+
+Imagine standing at Dentist, facing Bakery; point to Ice Cream.
+
+Imagine standing at Dentist, facing Bakery; point to Pet Store.
+
+Imagine standing at Dentist, facing Bakery; point to Chinese Food.
+
+Imagine standing at Grocery Store, facing Dentist; point to Ice Cream.
+
+Imagine standing at Grocery Store, facing Dentist; point to Pet Store.
+
+Imagine standing at Grocery Store, facing Dentist; point to Chinese Food.
+
+Imagine standing at Grocery Store, facing Dentist; point to Bakery.
+
+Imagine standing at Grocery Store, facing Ice Cream; point to Dentist.
+
+Imagine standing at Grocery Store, facing Ice Cream; point to Pet Store.
+
+Imagine standing at Grocery Store, facing Ice Cream; point to Chinese Food.
+
+Imagine standing at Grocery Store, facing Ice Cream; point to Bakery.
+
+Imagine standing at Grocery Store, facing Pet Store; point to Dentist.
+
+Imagine standing at Grocery Store, facing Pet Store; point to Ice Cream.
+
+Imagine standing at Grocery Store, facing Pet Store; point to Chinese Food.
+
+Imagine standing at Grocery Store, facing Pet Store; point to Bakery.
+
+Imagine standing at Grocery Store, facing Chinese Food; point to Dentist.
+
+Imagine standing at Grocery Store, facing Chinese Food; point to Ice Cream.
+
+Imagine standing at Grocery Store, facing Chinese Food; point to Pet Store.
+
+Imagine standing at Grocery Store, facing Chinese Food; point to Bakery.
+
+Imagine standing at Grocery Store, facing Bakery; point to Dentist.
+
+Imagine standing at Grocery Store, facing Bakery; point to Ice Cream.
+
+Imagine standing at Grocery Store, facing Bakery; point to Pet Store.
+
+Imagine standing at Grocery Store, facing Bakery; point to Chinese Food.
+
+Imagine standing at Ice Cream, facing Dentist; point to Grocery Store.
+
+Imagine standing at Ice Cream, facing Dentist; point to Pet Store.
+
+Imagine standing at Ice Cream, facing Dentist; point to Chinese Food.
+
+Imagine standing at Ice Cream, facing Dentist; point to Bakery.
+
+Imagine standing at Ice Cream, facing Grocery Store; point to Dentist.
+
+Imagine standing at Ice Cream, facing Grocery Store; point to Pet Store.
+
+Imagine standing at Ice Cream, facing Grocery Store; point to Chinese Food.
+
+Imagine standing at Ice Cream, facing Grocery Store; point to Bakery.
+
+Imagine standing at Ice Cream, facing Pet Store; point to Dentist.
+
+Imagine standing at Ice Cream, facing Pet Store; point to Grocery Store.
+
+Imagine standing at Ice Cream, facing Pet Store; point to Chinese Food.
+
+Imagine standing at Ice Cream, facing Pet Store; point to Bakery.
+
+Imagine standing at Ice Cream, facing Chinese Food; point to Dentist.
+
+Imagine standing at Ice Cream, facing Chinese Food; point to Grocery Store.
+
+Imagine standing at Ice Cream, facing Chinese Food; point to Pet Store.
+
+Imagine standing at Ice Cream, facing Chinese Food; point to Bakery.
+
+Imagine standing at Ice Cream, facing Bakery; point to Dentist.
+
+Imagine standing at Ice Cream, facing Bakery; point to Grocery Store.
+
+Imagine standing at Ice Cream, facing Bakery; point to Pet Store.
+
+Imagine standing at Ice Cream, facing Bakery; point to Chinese Food.
+
+Imagine standing at Pet Store, facing Dentist; point to Grocery Store.
+
+Imagine standing at Pet Store, facing Dentist; point to Ice Cream.
+
+Imagine standing at Pet Store, facing Dentist; point to Chinese Food.
+
+Imagine standing at Pet Store, facing Dentist; point to Bakery.
+
+Imagine standing at Pet Store, facing Grocery Store; point to Dentist.
+
+Imagine standing at Pet Store, facing Grocery Store; point to Ice Cream.
+
+Imagine standing at Pet Store, facing Grocery Store; point to Chinese Food.
+
+Imagine standing at Pet Store, facing Grocery Store; point to Bakery.
+
+Imagine standing at Pet Store, facing Ice Cream; point to Dentist.
+
+Imagine standing at Pet Store, facing Ice Cream; point to Grocery Store.
+
+Imagine standing at Pet Store, facing Ice Cream; point to Chinese Food.
+
+Imagine standing at Pet Store, facing Ice Cream; point to Bakery.
+
+Imagine standing at Pet Store, facing Chinese Food; point to Dentist.
+
+Imagine standing at Pet Store, facing Chinese Food; point to Grocery Store.
+
+Imagine standing at Pet Store, facing Chinese Food; point to Ice Cream.
+
+Imagine standing at Pet Store, facing Chinese Food; point to Bakery.
+
+Imagine standing at Pet Store, facing Bakery; point to Dentist.
+
+Imagine standing at Pet Store, facing Bakery; point to Grocery Store.
+
+Imagine standing at Pet Store, facing Bakery; point to Ice Cream.
+
+Imagine standing at Pet Store, facing Bakery; point to Chinese Food.
+
+Imagine standing at Chinese Food, facing Dentist; point to Grocery Store.
+
+Imagine standing at Chinese Food, facing Dentist; point to Ice Cream.
+
+Imagine standing at Chinese Food, facing Dentist; point to Pet Store.
+
+Imagine standing at Chinese Food, facing Dentist; point to Bakery.
+
+Imagine standing at Chinese Food, facing Grocery Store; point to Dentist.
+
+Imagine standing at Chinese Food, facing Grocery Store; point to Ice Cream.
+
+Imagine standing at Chinese Food, facing Grocery Store; point to Pet Store.
+
+Imagine standing at Chinese Food, facing Grocery Store; point to Bakery.
+
+Imagine standing at Chinese Food, facing Ice Cream; point to Dentist.
+
+Imagine standing at Chinese Food, facing Ice Cream; point to Grocery Store.
+
+Imagine standing at Chinese Food, facing Ice Cream; point to Pet Store.
+
+Imagine standing at Chinese Food, facing Ice Cream; point to Bakery.
+
+Imagine standing at Chinese Food, facing Pet Store; point to Dentist.
+
+Imagine standing at Chinese Food, facing Pet Store; point to Grocery Store.
+
+Imagine standing at Chinese Food, facing Pet Store; point to Ice Cream.
+
+Imagine standing at Chinese Food, facing Pet Store; point to Bakery.
+
+Imagine standing at Chinese Food, facing Bakery; point to Dentist.
+
+Imagine standing at Chinese Food, facing Bakery; point to Grocery Store.
+
+Imagine standing at Chinese Food, facing Bakery; point to Ice Cream.
+
+Imagine standing at Chinese Food, facing Bakery; point to Pet Store.
+
+Imagine standing at Bakery, facing Dentist; point to Grocery Store.
+
+Imagine standing at Bakery, facing Dentist; point to Ice Cream.
+
+Imagine standing at Bakery, facing Dentist; point to Pet Store.
+
+Imagine standing at Bakery, facing Dentist; point to Chinese Food.
+
+Imagine standing at Bakery, facing Grocery Store; point to Dentist.
+
+Imagine standing at Bakery, facing Grocery Store; point to Ice Cream.
+
+Imagine standing at Bakery, facing Grocery Store; point to Pet Store.
+
+Imagine standing at Bakery, facing Grocery Store; point to Chinese Food.
+
+Imagine standing at Bakery, facing Ice Cream; point to Dentist.
+
+Imagine standing at Bakery, facing Ice Cream; point to Grocery Store.
+
+Imagine standing at Bakery, facing Ice Cream; point to Pet Store.
+
+Imagine standing at Bakery, facing Ice Cream; point to Chinese Food.
+
+Imagine standing at Bakery, facing Pet Store; point to Dentist.
+
+Imagine standing at Bakery, facing Pet Store; point to Grocery Store.
+
+Imagine standing at Bakery, facing Pet Store; point to Ice Cream.
+
+Imagine standing at Bakery, facing Pet Store; point to Chinese Food.
+
+Imagine standing at Bakery, facing Chinese Food; point to Dentist.
+
+Imagine standing at Bakery, facing Chinese Food; point to Grocery Store.
+
+Imagine standing at Bakery, facing Chinese Food; point to Ice Cream.
+
+Imagine standing at Bakery, facing Chinese Food; point to Pet Store.
+
