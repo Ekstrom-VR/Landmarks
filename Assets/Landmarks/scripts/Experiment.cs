@@ -132,7 +132,7 @@ public class Experiment : MonoBehaviour
         if (done) return;
         if (config.runMode == ConfigRunMode.PLAYBACK)
         {
-            UpadtePlayback();
+            UpdatePlayback();
             return;
         }
 
@@ -167,7 +167,7 @@ public class Experiment : MonoBehaviour
 	}
 
 	//TODO - RENAME THIS to correct spelling
-	void UpadtePlayback() {
+	void UpdatePlayback() {
 		
 		long last_now = now;
 		long tick = DateTime.Now.Ticks;
