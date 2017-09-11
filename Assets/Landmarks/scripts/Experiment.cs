@@ -15,7 +15,6 @@
 */
 
 using UnityEngine;
-using System.Collections;
 using System.IO;
 using System;
 using System.Reflection;
@@ -27,7 +26,8 @@ public enum EndListMode
 }
 
 
-public class Experiment : MonoBehaviour {
+public class Experiment : MonoBehaviour
+{
 
 	public TaskList tasks;
 	private Config config;
@@ -36,7 +36,6 @@ public class Experiment : MonoBehaviour {
 	private string configfile = "";
 
 	[HideInInspector] public dbLog dblog;
-	
 	
 	private bool playback = false;
 	private bool pause = true;
@@ -56,13 +55,16 @@ public class Experiment : MonoBehaviour {
 	protected AvatarController avatarController;
 	protected HUD hud;
 
-	public static long Now() {
+	public static long Now()
+    {
 		
 		long tick = DateTime.Now.Ticks;
         return tick / TimeSpan.TicksPerMillisecond;
 	}
-	
-	void Awake() {
+
+    #region Monobehaviour
+    void Awake()
+    {
 		
 		Cursor.visible = false;
 		//since config is a singleton it will be the one created in scene 0 or this scene
@@ -77,82 +79,94 @@ public class Experiment : MonoBehaviour {
 
 		hud.showOnlyHUD();
 		//when in editor
-		if (!config.bootstrapped) {
+		if (!config.bootstrapped)
+        {
 			logfile = Directory.GetCurrentDirectory() + "/data/tmp/" + "test.log";
 			configfile = Directory.GetCurrentDirectory() + "/data/tmp/" + config.filename;
 		}
 		
-		if (config.runMode == ConfigRunMode.NEW) {
-			dblog = new dbLog(logfile);
-		} else if (config.runMode == ConfigRunMode.RESUME) {
-			dblog = new dbPlaybackLog(logfile);
-		} else if (config.runMode == ConfigRunMode.PLAYBACK) {
-			CharacterController c = avatar.GetComponent<CharacterController>();
-            c.detectCollisions = false;
-			dblog = new dbPlaybackLog(logfile);
-		} else if (config.runMode == ConfigRunMode.DEBUG) {
-			dblog = new dbMockLog(logfile);
-		}
-		
-		//start session
-
-
+        switch (config.runMode)
+        {
+            case ConfigRunMode.NEW:
+                dblog = new dbLog(logfile);
+                break;
+            case ConfigRunMode.RESUME:
+                dblog = new dbPlaybackLog(logfile);
+                break;
+            case ConfigRunMode.PLAYBACK:
+                CharacterController c = avatar.GetComponent<CharacterController>();
+                c.detectCollisions = false;
+                dblog = new dbPlaybackLog(logfile);
+                break;
+            case ConfigRunMode.DEBUG:
+                dblog = new dbMockLog(logfile);
+                break;
+        }
 	}
-	
-	public void StartPlaying() {		
+
+    void Start()
+    {
+        ConfigOverrides.parse(configfile, dblog);
+        hud.showFPS = config.showFPS;
+        hud.showTimestamp = (config.runMode == ConfigRunMode.PLAYBACK);
+
+        //start experiment
+        if (config.runMode != ConfigRunMode.PLAYBACK)
+        {
+            tasks.startTask();
+        }
+        else
+        {
+            hud.flashStatus("Playback Paused");
+            next_action = dblog.NextAction();
+            next_time = Int64.Parse(next_action[0]);
+            long tick = DateTime.Now.Ticks;
+            playback_start = tick / TimeSpan.TicksPerMillisecond;
+            playback_offset = 0;
+            now = playback_start;
+        }
+    }
+
+    void Update()
+    {
+        if (done) return;
+        if (config.runMode == ConfigRunMode.PLAYBACK)
+        {
+            UpadtePlayback();
+            return;
+        }
+
+        //KEY INPUTS
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            dblog.log("BOOKMARK	t-trigger", 1);
+        }
+ 
+        // Chekcign for experiemnt finish
+        done = tasks.updateTask();
+        if (done) ExperimentDone();
+    }
+    void OnApplicationQuit()
+    {
+        if (config.runMode != ConfigRunMode.PLAYBACK) tasks.endTask();
+        dblog.close();
+        Cursor.visible = true;
+    }
+
+    #endregion
+    public void StartPlaying()
+    {		
 		long tick = DateTime.Now.Ticks;
         playback_start = tick / TimeSpan.TicksPerMillisecond;
         playback_offset = 0;
 	}
-        
-	void Start () {
-		
-		ConfigOverrides.parse(configfile,dblog);
-		hud.showFPS = config.showFPS;
-		hud.showTimestamp = (config.runMode == ConfigRunMode.PLAYBACK);
+	
+	public void OnControllerColliderHit(GameObject hit)
+    {
+		if (config.runMode != ConfigRunMode.PLAYBACK) tasks.OnControllerColliderHit(hit);
+	}
 
-		
-		
-		//start experiment
-		if (config.runMode != ConfigRunMode.PLAYBACK) {
-			tasks.startTask();	
-		} else {
-			hud.flashStatus( "Playback Paused" );
-			next_action = dblog.NextAction();
-			next_time = Int64.Parse(next_action[0]);
-			long tick = DateTime.Now.Ticks;
-        	playback_start = tick / TimeSpan.TicksPerMillisecond;
-        	playback_offset = 0;
-        	now = playback_start;
-   		}
-	}
-	
-	public void OnControllerColliderHit(GameObject hit)  {
-		if (config.runMode != ConfigRunMode.PLAYBACK) {
-			tasks.OnControllerColliderHit(hit);
-		}
-	}
-	
-	void Update () {
-		
-		if ( !done) {
-			if (config.runMode != ConfigRunMode.PLAYBACK) {
-				
-				if (Input.GetKeyDown (KeyCode.T)) {
-					dblog.log("BOOKMARK	t-trigger",1 );
-				}
-				
-				done = tasks.updateTask();	
-				if (done) {
-					Cursor.visible = true;
-					Application.Quit();
-				}		
-			} else {
-				UpadtePlayback();
-			}
-		}
-	}
-	
+	//TODO - RENAME THIS to correct spelling
 	void UpadtePlayback() {
 		
 		long last_now = now;
@@ -239,50 +253,31 @@ public class Experiment : MonoBehaviour {
 
 		}
 	}
-	public  void TASK_ROTATE (GameObject go, Vector3 hpr) {
+    void ExperimentDone()
+    {
+        Cursor.visible = true;
+        Application.Quit();
+    }
+
+    #region SETTING TASK 
+    //positions adn rotations - but it is weird, because it really doesn't do anything but a single line - BAD FUNCTIONS - REDO
+    //WHAT IS THIS??
+    public  void TASK_ROTATE (GameObject go, Vector3 hpr)
+    {
 		go.transform.localEulerAngles = hpr;
 	}	
-	public  void TASK_POSITION (GameObject go, Vector3 pos) {
+	public  void TASK_POSITION (GameObject go, Vector3 pos)
+    {
 		go.transform.position = pos;
 	}	
-	public  void TASK_SCALE (GameObject go, Vector3 scale) {
+	public  void TASK_SCALE (GameObject go, Vector3 scale)
+    {
 		go.transform.localScale = scale;
-	}	
-
-//log.log("TASK_POSITION\t" + current.name  + "\t" + this.GetType().Name + "\t" + current.transform.position.ToString("f4"),1);
-//		log.log("TASK_ROTATE\t" + current.name  + "\t" + this.GetType().Name + "\t" + current.transform.localRotation.ToString("f3"),1);
-//		log.log("TASK_SCALE\t" + current.name  + "\t" + this.GetType().Name + "\t" + current.transform.localScale.ToString("f3"),1);
-				
-	void OnApplicationQuit() {
-		if (config.runMode != ConfigRunMode.PLAYBACK) {
-			tasks.endTask();
-		}
-		dblog.close();
-		Cursor.visible = true;
 	}
-	
-		void OnGUI () {
-		
-		//GUILayout.Label(config.home);
-		//if (config.bootstrapped)
-		//	GUILayout.Label("BOOTSTRAPPED");
-			
-		/*	this captures too many events - maybe just KeyUp?
-		evt = Event.current;
 
-		if(evt.isKey){
-		   if(evt.type == EventType.KeyDown){
-		      Debug.Log(evt.keyCode);
-		   }
-		   if(ev	t.type == EventType.KeyUp){
-		      Debug.Log(evt.keyCode);
-		   }
-
-		}
-		*/
-	}
-	
-	public static void Shuffle<T>(T[] array)
+    #endregion
+    // HELPER METHOD, should'nt e here
+    public static void Shuffle<T>(T[] array)
     {
 		var random = new System.Random();
 		for (int i = array.Length; i > 1; i--)
