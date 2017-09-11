@@ -15,10 +15,10 @@
 */
 
 using UnityEngine;
-using System.Collections;
 using System.Reflection;
 
-public class ExperimentTask : MonoBehaviour{
+public class ExperimentTask : MonoBehaviour
+{
 
 	protected GameObject avatar;
 	protected AvatarController avatarController;
@@ -42,93 +42,83 @@ public class ExperimentTask : MonoBehaviour{
 	[HideInInspector] public ExperimentTask pausedTasks;
 	[HideInInspector] public TaskList parentTask;
 
+    #region MonoBehaviour
+    public void Start()
+    {
+        avatar = GameObject.Find("Avatar");
+        hud = avatar.GetComponent<HUD>();
+        avatarController = avatar.GetComponent<AvatarController>();
 
-	public void Start () {
-		avatar = GameObject.Find("Avatar");
-		hud = avatar.GetComponent("HUD") as HUD;
-		avatarController = avatar.GetComponent("AvatarController") as AvatarController;
-	    
-	    experiment = GameObject.FindWithTag ("Experiment");
-	    manager = experiment.GetComponent("Experiment") as Experiment;
+        experiment = GameObject.FindWithTag("Experiment");
+        manager = experiment.GetComponent<Experiment>();
 	    log = manager.dblog;
-
 	}
-	
-	public virtual void startTask() {	
+    public virtual bool OnControllerColliderHit(GameObject hit)
+    {
+        return false;
+    }
+    #endregion
+    #region Task Controls
+    public virtual void startTask()
+    {	
 		task_start = Experiment.Now();
-		//currentInterrupt = 0;        Not here since after an interuupt we will restart
-	    Start();//added by jared
+	    Start();
 		log.log("TASK_START\t" + name + "\t" + this.GetType().Name,1 );		
 	}
-	
-	public virtual void TASK_START () {
-	}	
 	
 	public virtual bool updateTask () {
 		
 		bool attemptInterupt = false;
-		
-		if ( interruptInterval > 0 && Experiment.Now() - task_start >= interruptInterval)  {
-	        attemptInterupt = true;
-	    }
+		if ( interruptInterval > 0 && Experiment.Now() - task_start >= interruptInterval) attemptInterupt = true;
 	    
-		if( Input.GetButtonDown ("Compass") ) {
-			attemptInterupt = true;	
-		}    
-	    
+		if( Input.GetButtonDown ("Compass") ) attemptInterupt = true;
 
-
-	    
-		if(attemptInterupt && interruptTasks && currentInterrupt < repeatInterrupts && !interruptTasks.skip) {	
-			if (interruptTasks.skip) {
+        if (attemptInterupt && interruptTasks && currentInterrupt < repeatInterrupts && !interruptTasks.skip)
+        {	
+			if (interruptTasks.skip)
+            { 
 				log.log("INFO	skip interrupt	" + interruptTasks.name,1 );
-			} else {
-					    Debug.Log(currentInterrupt);
-	    Debug.Log(repeatInterrupts);
-	    
-				log.log("INPUT_EVENT	interrupt	" + name,1 );
-				//interruptTasks.pausedTasks = this;
-				parentTask.pausedTasks = this;
-				TASK_PAUSE();
-				//endTask();
-				currentInterrupt = currentInterrupt + 1;
-				interruptTasks.startTask();
-				parentTask.currentTask = interruptTasks;
-	
 			}
-		}
-		
+            else
+            {
+		    Debug.Log(currentInterrupt);
+	        Debug.Log(repeatInterrupts);
+	    	log.log("INPUT_EVENT	interrupt	" + name,1 );
+			//interruptTasks.pausedTasks = this;
+			parentTask.pausedTasks = this;
+			TASK_PAUSE();
+			//endTask();
+		    currentInterrupt = currentInterrupt + 1;
+			interruptTasks.startTask();
+			parentTask.currentTask = interruptTasks;
+		    }
+	    }
 		return false;
 	}
-	public virtual void endTask() {
+
+    public virtual void endTask()
+    {
 		long duration = Experiment.Now() - task_start;
 		currentInterrupt = 0;    //put here because of interrupts
 		log.log("TASK_END\t" + name + "\t" + this.GetType().Name + "\t" + duration,1 );
 	}
-	public virtual void TASK_END () {
-	}
-	public virtual void TASK_PAUSE () {
-	}
+    #endregion
 
-	public virtual bool OnControllerColliderHit(GameObject hit)  {
-		return false;
-	}
-	
-	public virtual void TASK_ROTATE (GameObject go, Vector3 hpr) {
-	}	
-	public virtual void TASK_POSITION (GameObject go, Vector3 hpr) {
-	}	
-	public virtual void TASK_SCALE (GameObject go, Vector3 scale) {
-	}		
-	public virtual void TASK_ADD(GameObject go, string txt) {
-	}
-	
-	public virtual string currentString() {
+    public virtual void TASK_START() { }
+    public virtual void TASK_END () { }
+	public virtual void TASK_PAUSE () {	}
+	public virtual void TASK_ROTATE (GameObject go, Vector3 hpr) { }	
+	public virtual void TASK_POSITION (GameObject go, Vector3 hpr) { }	
+	public virtual void TASK_SCALE (GameObject go, Vector3 scale) {	}		
+	public virtual void TASK_ADD(GameObject go, string txt) { }
+
+    #region Helpers
+    public virtual string currentString()
+    {
 		return "";
 	}
-	
-	public virtual void incrementCurrent() {
-	}
+
+    public virtual void incrementCurrent() { }
 
 	// http://www.haslo.ch/blog/setproperty-and-getproperty-with-c-reflection/
 	private object getProperty(object containingObject, string propertyName)
@@ -140,5 +130,5 @@ public class ExperimentTask : MonoBehaviour{
 	{
 	    containingObject.GetType().InvokeMember(propertyName, BindingFlags.SetProperty, null, containingObject, new object[] { newValue });
 	}
-
+    #endregion
 }
