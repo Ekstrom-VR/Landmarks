@@ -25,10 +25,8 @@ public enum EndListMode
 	End
 }
 
-
 public class Experiment : MonoBehaviour
 {
-
 	public TaskList tasks;
 	private Config config;
 	private long microseconds = 1;
@@ -65,7 +63,6 @@ public class Experiment : MonoBehaviour
     #region Monobehaviour
     void Awake()
     {
-		
 		Cursor.visible = false;
 		//since config is a singleton it will be the one created in scene 0 or this scene
 		config = Config.instance;
@@ -103,7 +100,6 @@ public class Experiment : MonoBehaviour
                 break;
         }
 	}
-
     void Start()
     {
         ConfigOverrides.parse(configfile, dblog);
@@ -126,7 +122,6 @@ public class Experiment : MonoBehaviour
             now = playback_start;
         }
     }
-
     void Update()
     {
         if (done) return;
@@ -152,7 +147,6 @@ public class Experiment : MonoBehaviour
         dblog.close();
         Cursor.visible = true;
     }
-
     #endregion
     public void StartPlaying()
     {		
@@ -167,90 +161,84 @@ public class Experiment : MonoBehaviour
 	}
 
 	//TODO - RENAME THIS to correct spelling
-	void UpdatePlayback() {
-		
+	void UpdatePlayback()
+    {
 		long last_now = now;
 		long tick = DateTime.Now.Ticks;
         now = tick / TimeSpan.TicksPerMillisecond;
 		
-		if (Input.GetButtonDown("PlayPause")) {
+		if (Input.GetButtonDown("PlayPause"))
+        {
 			pause = !pause;
 			hud.flashStatus( "Playback Paused" );
 		}
 
-		if (pause) {
-			playback_offset -= now - last_now;
-		}
-		
-		float seek = Input.GetAxis("Horizontal");
-		//if (seek != 0.0) {
-		if (Input.GetButton("Horizontal")) {
-			playback_offset += 250;// * Convert.ToInt64(seek);	
-		}
+		if (pause) playback_offset -= now - last_now;
+
+        float seek = Input.GetAxis("Horizontal");
+		if (Input.GetButton("Horizontal")) playback_offset += 250;
+
         playback_time = now - playback_start + playback_offset;
 		hud.playback_time = playback_time;
 		
 		string[] vec;
 		Vector3 vec3;
 		
-		while ( (!pause || (seek != 0.0) ) && !done && dblog.PlaybackTime() <= playback_time  ) {
-//					 Debug.Log(dblog.PlaybackTime() + " : " + playback_time);
-								Debug.Log(next_action[2] );
-								
-								
-	//try {							
-			if(next_action[2] == "AVATAR_HPR" || next_action[2] == "AVATAR_POS" || next_action[2] == "AVATAR_STOP") {
-				vec = next_action[3].Split(new char[] {',', '(', ')', ' '},StringSplitOptions.RemoveEmptyEntries);				 
-				vec3 = new Vector3(float.Parse(vec[0]), float.Parse(vec[1]), +float.Parse(vec[2]) );
-				Type t = typeof(AvatarController); 
-				t.InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, avatarController, new System.Object[] {vec3});
-			} else if(next_action[2] == "TASK_ROTATE" || next_action[2] == "TASK_POSITION"  || next_action[2] == "TASK_SCALE") {
+        //TODO - refactor some of the things happening here
+		while ( (!pause || (seek != 0.0) ) && !done && dblog.PlaybackTime() <= playback_time )
+        {
+			Debug.Log(next_action[2]);
+            if (next_action[2] == "AVATAR_HPR" || next_action[2] == "AVATAR_POS" || next_action[2] == "AVATAR_STOP")
+            {
+                vec = next_action[3].Split(new char[] { ',', '(', ')', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                vec3 = new Vector3(float.Parse(vec[0]), float.Parse(vec[1]), +float.Parse(vec[2]));
+                Type t = typeof(AvatarController);
+                t.InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, avatarController, new System.Object[] { vec3 });
+            }
+            else if (next_action[2] == "TASK_ROTATE" || next_action[2] == "TASK_POSITION" || next_action[2] == "TASK_SCALE")
+            {
+                vec = next_action[5].Split(new char[] { ',', '(', ')', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                vec3 = new Vector3(float.Parse(vec[0]), float.Parse(vec[1]), +float.Parse(vec[2]));
 
-				vec = next_action[5].Split(new char[] {',', '(', ')', ' '},StringSplitOptions.RemoveEmptyEntries);				 
-				vec3 = new Vector3(float.Parse(vec[0]), float.Parse(vec[1]), +float.Parse(vec[2]) );
-				
-				GameObject taskObject = GameObject.Find(next_action[3]);
-				Component script = taskObject.GetComponent(next_action[4]) as Component;
-				//Type t = typeof(AvatarController); 
-				this.GetType().InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, this, new System.Object[] {taskObject, vec3});
-			} else if ( next_action[2] == "TASK_ADD" ) {				
-				GameObject taskObject = GameObject.Find(next_action[3]);
-				Component script = taskObject.GetComponent(next_action[4]) as Component;
-				//Type t = typeof(AvatarController); 
-				GameObject secondObject = GameObject.Find(next_action[5]);
-				script.GetType().InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, script, new System.Object[] {secondObject,next_action[6]});								
-			} else if ( next_action[2] == "INPUT_EVENT" ) {
-				hud.flashStatus( "Input: " + next_action[3] + " " + next_action[4]);
-			} else if ( next_action[2] == "SET_SCORE" ) {
-				hud.setScore( int.Parse(next_action[3] ));
-
-			} else if ( next_action[2] == "INFO" ) {
-				//skip
-			} else if ( next_action[2] == "DATA" ) {
-				//skip
-			} else if ( next_action[2] == "BOOKMARK" ) {
-				//skip
-			} else if ( next_action[2] == "CONFIG_SET" ) {
-				//Debug.Log("CONFIG_SET" );
+                GameObject taskObject = GameObject.Find(next_action[3]);
+                Component script = taskObject.GetComponent(next_action[4]) as Component;
+                GetType().InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, this, new System.Object[] { taskObject, vec3 });
+            }
+            else if (next_action[2] == "TASK_ADD")
+            {
+                GameObject taskObject = GameObject.Find(next_action[3]);
+                Component script = taskObject.GetComponent(next_action[4]) as Component;
+                GameObject secondObject = GameObject.Find(next_action[5]);
+                script.GetType().InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, script, new System.Object[] { secondObject, next_action[6] });
+            }
+            else if (next_action[2] == "INPUT_EVENT")
+            {
+                hud.flashStatus("Input: " + next_action[3] + " " + next_action[4]);
+            }
+            else if (next_action[2] == "SET_SCORE")
+            {
+                hud.setScore(int.Parse(next_action[3]));
+            }
+            else if (next_action[2] == "INFO") { }
+			else if (next_action[2] == "DATA" ) { }
+			else if (next_action[2] == "BOOKMARK" ) { }
+			else if (next_action[2] == "CONFIG_SET" )
+            {
 				ConfigOverrides.set_keyvalue(next_action[3]+"="+next_action[4],"Config: ", dblog);
-			} else {
-							//	Debug.Log("else" );
+			}
+            else
+            {
 				GameObject taskObject = GameObject.Find(next_action[3]);
 				Component script = taskObject.GetComponent(next_action[4]) as Component;
-
-				//Type t = typeof(AvatarController); 
 				script.GetType().InvokeMember(next_action[2], BindingFlags.Default | BindingFlags.InvokeMethod, null, script, null);
 			}
-			
-	//	} catch (FormatException){
-	//	} catch (IndexOutOfRangeException){ }
-					
-			next_action = dblog.NextAction();
-			if (next_action == null) {
+
+            next_action = dblog.NextAction();
+			if (next_action == null)
+            {
 				hud.setMessage( "Playback Done" );
 				done = true;	
 			}
-
 		}
 	}
     void ExperimentDone()
