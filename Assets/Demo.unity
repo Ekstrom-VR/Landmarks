@@ -1560,9 +1560,9 @@ GameObject:
   - component: {fileID: 541521077}
   - component: {fileID: 541521076}
   - component: {fileID: 541521075}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3538,7 +3538,7 @@ GameObject:
   - component: {fileID: 1883122992}
   - component: {fileID: 1883122991}
   m_Layer: 0
-  m_Name: Delivery Experiment MNC
+  m_Name: Delivery Experiment
   m_TagString: Experiment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
