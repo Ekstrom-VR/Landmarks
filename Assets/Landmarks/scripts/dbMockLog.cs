@@ -16,12 +16,12 @@
 
 using UnityEngine;
 
-public class dbMockLog : dbLog  {
-
-
-    // log object for running in editor and debugging
+// log object for running in editor and debugging
+public class dbMockLog : dbLog
+{
     
-	public dbMockLog(string filename) {
+	public dbMockLog(string filename)
+    {
 		Debug.Log("Open file:" + filename);
 	}
 	
@@ -30,10 +30,9 @@ public class dbMockLog : dbLog  {
 		Debug.Log("Close file");
 	}
 	
-	public override void log(string msg, int level) {
-		if ( level < 2 ) {
-			Debug.Log(msg);
-		}
+	public override void log(string msg, int level)
+    {
+		if ( level < 2 ) Debug.Log(msg);
 	}
 
 }

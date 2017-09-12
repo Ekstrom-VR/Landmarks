@@ -15,8 +15,6 @@
 */
 
 using UnityEngine;
-using System.Collections;
-
 
 public enum ConfigRunMode
 {
@@ -25,15 +23,15 @@ public enum ConfigRunMode
 	PLAYBACK,
 	DEBUG
 }
-
-
  /// Config is a singleton.
  /// To avoid having to manually link an instance to every class that needs it, it has a static property called
  /// instance, so other objects that need to access it can just call:
- ///        Config.instance.DoSomeThing();
+ /// Config.instance.DoSomeThing();
  ///
-public class Config : MonoBehaviour{
-
+ 
+//TODO - redo into generic singleton
+public class Config : Singleton<Config>
+{
 	public float version;
 	public int width = 1024;
 	public int height = 768;
@@ -53,46 +51,24 @@ public class Config : MonoBehaviour{
 	public string level = "default";
 	public ConfigRunMode 	runMode = ConfigRunMode.DEBUG;
 	[HideInInspector] public bool 	bootstrapped = false;
-	
-
-    // s_Instance is used to cache the instance found in the scene so we don't have to look it up every time.	
-	private static Config s_Instance = null;
-	  
-    // This defines a static instance property that attempts to find the config object in the scene and
-    // returns it to the caller.
-	public static Config instance {
-        get {
-            if (s_Instance == null) {
-                // This is where the magic happens.
-                //  FindObjectOfType(...) returns the first Config object in the scene.
-                s_Instance =  FindObjectOfType(typeof (Config)) as Config;
-            }
-            
-            // If it is still null, create a new instance
-            if (s_Instance == null) {
-                GameObject obj = new GameObject("Config");
-                s_Instance = obj.AddComponent(typeof (Config)) as Config;
-                Debug.Log ("Could not locate an Config object.  Config was Generated Automaticly.");
-            }
-            
-            return s_Instance;
-        }
-    }
     
     // Ensure that the instance is destroyed when the game is stopped in the editor.
-    void OnApplicationQuit() {
-        s_Instance = null;
+    void OnApplicationQuit()
+    {
         PlayerPrefs.SetInt("Screenmanager Is Fullscreen mode", 0);
         PlayerPrefs.SetInt("Screenmanager Resolution Width", 968);
         PlayerPrefs.SetInt("Screenmanager Resolution Height", 768);
     }
 	
-    void Awake() {
+    void Awake()
+    {
         DontDestroyOnLoad(transform.gameObject);
     }
-    
-    public void test() {
-    	Debug.Log("test!!!");
+
+    //Deprecated but might be important in older scripts
+    public static Config instance
+    {
+        get { return Instance; }
     }
 }
 

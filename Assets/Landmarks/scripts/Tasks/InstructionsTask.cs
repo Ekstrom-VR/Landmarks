@@ -15,7 +15,6 @@
 */
 
 using UnityEngine;
-using System.Collections;
 
 public class InstructionsTask : ExperimentTask {
 	
@@ -37,43 +36,34 @@ public class InstructionsTask : ExperimentTask {
 	
 	void OnDisable ()
 	{
-		if (gui)
-			DestroyImmediate (gui.gameObject);
+		if (gui) DestroyImmediate (gui.gameObject);
 	}
 	
-	public override void startTask () {
+	public override void startTask ()
+    {
 		TASK_START();
 	}	
 
 	public override void TASK_START()
 	{
-		
-//		if (!manager) Start();
-
 		Start();
 		base.startTask();
 		
-		
-		
-		if (skip) {
+		if (skip)
+        {
 			log.log("INFO	skip task	" + name,1 );
 			return;
 		}
-//		if (!gui)
-//	    {	       			
-    		GameObject sgo = new GameObject("Instruction Display");
-    		sgo.AddComponent<GUIText>();
-			sgo.hideFlags = HideFlags.HideAndDontSave;
-			sgo.transform.position = new Vector3(0,0,0);
-			gui = sgo.GetComponent<GUIText>();
-//			gui.pixelOffset = new Vector2( 100, Screen.height - 100);
-			gui.pixelOffset = new Vector2( Screen.width/6, Screen.height - (Screen.height/6));
-   			//gui.font = instructionFont;
-   			gui.fontSize = instructionSize;
-   			gui.material.color = text_color;	   		
 
-//	    }
-	    
+    	GameObject sgo = new GameObject("Instruction Display");
+    	sgo.AddComponent<GUIText>();
+		sgo.hideFlags = HideFlags.HideAndDontSave;
+		sgo.transform.position = new Vector3(0,0,0);
+		gui = sgo.GetComponent<GUIText>();
+		gui.pixelOffset = new Vector2( Screen.width/6, Screen.height - (Screen.height/6));
+   		gui.fontSize = instructionSize;
+   		gui.material.color = text_color;	   		
+
 	    if (texts) currentText = texts.currentString().Trim();
 	    if (objects) currentObject = objects.currentObject();
 	    
@@ -86,39 +76,33 @@ public class InstructionsTask : ExperimentTask {
 			hud.setMessage(msg);
 		}
 		hud.flashStatus("");	
-
-
-	   
-		
 	}
+
 	// Update is called once per frame
-	public override bool updateTask () {
-		
-		if (skip) {
-			//log.log("INFO	skip task	" + name,1 );
-			return true;
-		}
-		if ( interval > 0 && Experiment.Now() - task_start >= interval)  {
-	        return true;
-	    }
-	    
-		if (Input.GetButtonDown("Return")) {
+	public override bool updateTask ()
+    {
+        if (skip) return true;
+		if ( interval > 0 && Experiment.Now() - task_start >= interval) return true;
+
+        if (Input.GetButtonDown("Return"))
+        {
 			log.log("INPUT_EVENT	clear text	1",1 );
 	        return true;
 	    }
 	    return false;
 	}
 	
-	public override void endTask() {
+	public override void endTask()
+    {
 		TASK_END();
 	}
 	
-	public override void TASK_END() {
+	public override void TASK_END()
+    {
 		base.endTask();
 		hud.setMessage("");
 		
 		if (canIncrementLists) {
-
 			if (objects) {
 				objects.incrementCurrent();
 				currentObject = objects.currentObject();
@@ -127,10 +111,7 @@ public class InstructionsTask : ExperimentTask {
 				texts.incrementCurrent();		
 				currentText = texts.currentString();
 			}
-
 		}
-		if (gui)
-			DestroyImmediate (gui.gameObject);
-//		hud.showEverything();
-	}
+		if (gui) DestroyImmediate (gui.gameObject);
+    }
 }
