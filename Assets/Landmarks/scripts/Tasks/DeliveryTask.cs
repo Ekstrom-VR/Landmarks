@@ -15,7 +15,6 @@
 */
 
 using UnityEngine;
-using System.Collections;
 
 public class DeliveryTask : ExperimentTask {
 	
@@ -39,12 +38,9 @@ public class DeliveryTask : ExperimentTask {
 
 		if (portholeVert) hud.portHoleVertOn();
 		else if (portholeHorz) hud.portHoleHorzOn();
+	}
 
-
-
-
-	}	
-	public override void TASK_START() {
+    public override void TASK_START() {
 		if (!manager) Start();
 		base.startTask();
 		
@@ -65,9 +61,8 @@ public class DeliveryTask : ExperimentTask {
 		base.updateTask();
 		
 		if (score > 0) penaltyTimer = penaltyTimer + (Time.deltaTime * 1000);
-		
-				
-		if (penaltyTimer >= penaltyRate) {
+
+        if (penaltyTimer >= penaltyRate) {
 			penaltyTimer = penaltyTimer - penaltyRate;
 			if (score > 0) {
 				score = score - 1;
@@ -84,13 +79,11 @@ public class DeliveryTask : ExperimentTask {
 	
 	public override void TASK_PAUSE() {
 		avatarController.handleInput = false;
-		//base.endTask();
 		log.log("TASK_PAUSE\t" + name + "\t" + this.GetType().Name + "\t" ,1 );
 		avatarController.stop();
 
 		hud.setMessage("");
 		hud.showScore = false;
-
 	}
 	
 	public override void TASK_END() {
@@ -104,12 +97,8 @@ public class DeliveryTask : ExperimentTask {
 		hud.setMessage("");
 		hud.showScore = false;
 
-
-
 		if (portholeVert) hud.portHoleOff();
 		if (portholeHorz) hud.portHoleOff();
-	
-
 	}
 	
 	public override bool OnControllerColliderHit(GameObject hit)  {
@@ -121,7 +110,6 @@ public class DeliveryTask : ExperimentTask {
 			return true;
 		}
 		
-		//		Debug.Log (hit.transform.parent.name + " = " + current.name);
 		if (hit.transform.parent == current.transform) {
 			if (showScoring) {
 				score = score + scoreIncrement;

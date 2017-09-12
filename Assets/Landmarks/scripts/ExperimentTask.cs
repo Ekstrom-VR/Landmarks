@@ -84,10 +84,8 @@ public class ExperimentTask : MonoBehaviour
 		    Debug.Log(currentInterrupt);
 	        Debug.Log(repeatInterrupts);
 	    	log.log("INPUT_EVENT	interrupt	" + name,1 );
-			//interruptTasks.pausedTasks = this;
 			parentTask.pausedTasks = this;
 			TASK_PAUSE();
-			//endTask();
 		    currentInterrupt = currentInterrupt + 1;
 			interruptTasks.startTask();
 			parentTask.currentTask = interruptTasks;

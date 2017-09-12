@@ -15,11 +15,10 @@
 */
 
 using UnityEngine;
-using System.Collections;
 using System;
 
-
-public class TaskList : ExperimentTask {
+public class TaskList : ExperimentTask
+{
 	
 	public GameObject[] tasks;
 	public GameObject[] objectsList;
@@ -31,109 +30,90 @@ public class TaskList : ExperimentTask {
 	private int currentTaskIndex = 0;
 	[HideInInspector] public ExperimentTask currentTask;
 
-	public override void startTask() {
+	public override void startTask()
+    {
 		// Debug.Log(this.GetType().Name);
 		base.startTask();
 		
-		if (overideRepeat) {
+		if (overideRepeat)
+        {
 			repeatCount = 1;
 			repeat = Int32.Parse( overideRepeat.currentString().Trim() );
 		}
-		//Debug.Log("repeat: ");
-		//Debug.Log( repeat);
-		
-		
 		if (!skip) startNextTask();		
 	}	
-	public override void TASK_START () {
+
+	public override void TASK_START ()
+    {
 		repeatCount = 1;
 	}	
 	
-	public void startNextTask() {
-//		print(tasks[currentTaskIndex].name);
+	public void startNextTask()
+    {
 		 currentTask = tasks[currentTaskIndex].GetComponent<ExperimentTask>();
 		 currentTask.parentTask = this;
 		 currentTask.startTask();		
 	}
 	
-	public override bool updateTask () {
+	public override bool updateTask ()
+    {
 		if (skip) return true;
 		
-		if ( currentTask.updateTask() ) {
-			
-			
-			//cut
-					
+		if ( currentTask.updateTask() )
+        {
 			if (pausedTasks) {
-				//currentTask.endTask();
-				//Debug.Log("pause");
 				currentTask = pausedTasks;
-				//endTask();
 				pausedTasks.startTask();
 				pausedTasks = null;		
-				//return true;	
 			} else {
 				return endChild();
 			}
-			//
 		}
 		return false;	
 	}
 	
-	public bool endChild() {
-		
-				currentTask.endTask();
+	public bool endChild()
+    {
+		currentTask.endTask();
 
-				currentTaskIndex = currentTaskIndex + 1;
-				if (currentTaskIndex >= tasks.Length && repeatCount >= repeat) {
-					currentTaskIndex = 0;
-					repeatCount = 1;
-					return true;
-				} else {
-					if (currentTaskIndex >= tasks.Length) {
-						repeatCount++;
-						currentTaskIndex = 0;
-					}
-			 		startNextTask();	
-				}
-		return false;
+		currentTaskIndex = currentTaskIndex + 1;
+		if (currentTaskIndex >= tasks.Length && repeatCount >= repeat) {
+			currentTaskIndex = 0;
+			repeatCount = 1;
+			return true;
+		} else {
+			if (currentTaskIndex >= tasks.Length) {
+				repeatCount++;
+				currentTaskIndex = 0;
+			}
+			startNextTask();	
+		}
+        return false;
 	}
-	
 	
 	public override void endTask() {
 		base.endTask();
 		
-		if (overideRepeat) {
-				overideRepeat.incrementCurrent();
-		}
-						
-			//	if (pausedTasks) {
-				//currentTask = pausedTasks;
-				//endTask();
-			//	pausedTasks.startTask();
-		//if (!skip) currentTask.endTask();
+		if (overideRepeat) 	overideRepeat.incrementCurrent();
 	}
 	
 	public override bool OnControllerColliderHit(GameObject hit)  {
 		if ( currentTask.OnControllerColliderHit(hit) ) {
 			
 			return endChild();
-			
-			//cut
-			currentTask.endTask();
+            //THIS PART NEVER HAPPENS? YOU are returning!!!
+            currentTask.endTask();
 			currentTaskIndex = currentTaskIndex + 1;
 			if (currentTaskIndex >= tasks.Length) {
 				return true;
 			} else {
 		 		startNextTask();	
 			}
-			//
 		}
 		return false;
 	}
 	
 	public string format(string str) {
-		
 		string[] names = new string[objectsList.Length];
 		int i = 0;
 		foreach( GameObject go in objectsList ) {
@@ -142,17 +122,4 @@ public class TaskList : ExperimentTask {
 		}
 		return string.Format(str, names);
 	}
-
 }
-
-
-/*
-
-   var enumerator = d.GetEnumerator();
-    while (enumerator.MoveNext())
-    {
-	var pair = enumerator.Current;
-	b += pair.Value;
-    }
-    
-    */
