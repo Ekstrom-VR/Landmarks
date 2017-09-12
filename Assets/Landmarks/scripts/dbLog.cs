@@ -16,11 +16,9 @@
 
 using System;
 using System.IO;
-using System.Text.RegularExpressions;
 
 public class dbLog
 {
-
     protected long microseconds = 1;
     protected string workingFile = "";
     private StreamWriter logfile;
@@ -54,6 +52,7 @@ public class dbLog
     {
 		return null;
 	}
+
 	public virtual long PlaybackTime()
     {
 		return 0;

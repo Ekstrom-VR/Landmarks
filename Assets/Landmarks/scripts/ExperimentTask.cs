@@ -66,8 +66,8 @@ public class ExperimentTask : MonoBehaviour
 		log.log("TASK_START\t" + name + "\t" + this.GetType().Name,1 );		
 	}
 	
-	public virtual bool updateTask () {
-		
+	public virtual bool updateTask ()
+    {
 		bool attemptInterupt = false;
 		if ( interruptInterval > 0 && Experiment.Now() - task_start >= interruptInterval) attemptInterupt = true;
 	    

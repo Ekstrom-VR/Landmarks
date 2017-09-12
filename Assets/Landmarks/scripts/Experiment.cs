@@ -55,7 +55,6 @@ public class Experiment : MonoBehaviour
 
 	public static long Now()
     {
-		
 		long tick = DateTime.Now.Ticks;
         return tick / TimeSpan.TicksPerMillisecond;
 	}
