@@ -71,12 +71,14 @@ public class Experiment : MonoBehaviour
 		hud = avatar.GetComponent("HUD") as HUD;
 		avatarController = avatar.GetComponent("AvatarController") as AvatarController;
 
+        //TODO - this shoudl be with the logggin, not in Experiment
 		logfile = config.subjectPath + "/test.log";
 		configfile = config.expPath + "/" + config.filename;
 
 		hud.showOnlyHUD();
-		//when in editor
-		if (!config.bootstrapped)
+        //when in editor
+        //TODO - this shoudl be with the logggin, not in Experiment
+        if (!config.bootstrapped)
         {
 			logfile = Directory.GetCurrentDirectory() + "/data/tmp/" + "test.log";
 			configfile = Directory.GetCurrentDirectory() + "/data/tmp/" + config.filename;
