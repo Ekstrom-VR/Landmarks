@@ -14,23 +14,34 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-using UnityEngine;
 using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
-
-public class dbLog {
+public class dbLog
+{
 
     protected long microseconds = 1;
     protected string workingFile = "";
     private StreamWriter logfile;
 
-	public dbLog(string filename) {
-		workingFile = filename;
-		logfile = new StreamWriter ( workingFile );
+	public dbLog(string filename)
+    {
+        setLogDirectory(filename);
+		logfile = new StreamWriter (workingFile);
 	}
+
+    //basically jsut creates a folder if it doesn't exist yet
+    protected void setLogDirectory(string filename)
+    {
+        workingFile = filename;
+        //creates a folder for the patient, if it doesnt exist
+        var folderName = RegexHelpers.GetFolderFromFilepath(workingFile);
+        Directory.CreateDirectory(folderName);
+    }
 	
-	public dbLog() {
+	public dbLog()
+    {
 		//openNew(filename);
 	}
 	
@@ -39,22 +50,20 @@ public class dbLog {
 		logfile.Close();	
 	}
 	
-	public virtual string[] NextAction() {
+	public virtual string[] NextAction()
+    {
 		return null;
 	}
-	public virtual long PlaybackTime() {
+	public virtual long PlaybackTime()
+    {
 		return 0;
 	}
 	
-	public virtual void log(string msg, int level) {
-		
+	public virtual void log(string msg, int level)
+    {
 	    long tick = DateTime.Now.Ticks;
-        //long seconds = tick / TimeSpan.TicksPerSecond;
         long milliseconds = tick / TimeSpan.TicksPerMillisecond;
         microseconds = tick / 10;
-        //Debug.Log(milliseconds);
-        //Debug.Log(Time.frameCount + ": " + Event.current);
-        
 		logfile.WriteLine( milliseconds + "\t0\t" + msg );
 	}
 }
