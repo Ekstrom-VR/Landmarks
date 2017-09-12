@@ -65,7 +65,7 @@ public class Experiment : MonoBehaviour
     {
 		Cursor.visible = false;
 		//since config is a singleton it will be the one created in scene 0 or this scene
-		config = Config.instance;
+		config = Config.Instance;
 
 		avatar = GameObject.Find("Avatar");
 		hud = avatar.GetComponent("HUD") as HUD;
