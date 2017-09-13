@@ -1,7 +1,0 @@
-This level does the following:
-
-END OF PREVIOUS DEMO
-
-Random deliveries.
-
-"Found" does not match delivery.

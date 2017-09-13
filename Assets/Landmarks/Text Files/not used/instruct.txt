@@ -1,8 +1,0 @@
-INTRODUCTION
-
-This is an experiment on spatial congnition. You will be shown a virtual city and asked to memorize   
-the locations of different stores. Later, you will be tested on how well you remember those locations.
-
-Please tell the investigator when you have finished reading these instructions.
-
-
