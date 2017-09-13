@@ -1,3 +1,0 @@
-This level does the following:
-
-Defines level names as they will appear in the Build.

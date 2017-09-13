@@ -1,3 +1,0 @@
-This level does the following:
-
-Prompts deliverys to stores in no particular order.

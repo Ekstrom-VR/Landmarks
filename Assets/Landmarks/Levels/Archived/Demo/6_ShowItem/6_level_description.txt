@@ -1,6 +1,0 @@
-This level does the following:
-
-Specifies ordered deliveries.
-Randomly associates item with delivery
-
-Issues: weird grammer.  :)

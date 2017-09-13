@@ -1,4 +1,0 @@
-This level does the following:
-
-Prompts deliverys in specified order.
-Confirms Great job, you found the{}
